@@ -12,7 +12,7 @@ export default class Header extends React.Component {
     return (
       <header>
         <nav>
-          <Link to="/resume" activeStyle={{ 'fontWeight': 'bold' }}>Résumé</Link>
+          <Link to="/resume" activeStyle={{ 'fontWeight': 'bold' }}>Resume</Link>
           <Link to="/portfolio" activeStyle={{ 'fontWeight': 'bold' }}>Portfolio</Link>
           <Link to="/misc" activeStyle={{ 'fontWeight': 'bold' }}>Misc</Link>
         </nav>
