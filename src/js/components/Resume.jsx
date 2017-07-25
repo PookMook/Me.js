@@ -9,7 +9,7 @@ export default class Resume extends React.Component {
   }
 
   componentWillMount(){
-    document.title = "Résumé | "+this.infos.name;
+    document.title = "Resume | "+this.infos.name;
   }
 
   render() {
