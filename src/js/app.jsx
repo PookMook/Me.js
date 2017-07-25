@@ -10,6 +10,7 @@ import { MainDiv } from './components/Main.jsx';
 import Resume from './components/Resume.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import Misc from './components/Misc.jsx';
+require('./../logo.png');
 
 import _ from 'lodash';
 
