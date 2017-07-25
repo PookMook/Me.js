@@ -16,15 +16,18 @@ Display your Résumé and portfolio on the web with just one .json file
  - basic HTML Display
 
 ### v0.2
- - bilingual
+ - external JSON file retrieval
 
 ### v0.3
- - online JSON editor
+ - bilingual
 
 ### v0.4
- - MultiResume (you.domain.com/{hash}/resume) so you can select which information to show to who.
+ - online JSON editor
 
 ### v0.5
+ - MultiResume (you.domain.com/{hash}/resume) so you can select which information to show to who.
+
+### v0.6
  - Dockerize it
 
 ### v1

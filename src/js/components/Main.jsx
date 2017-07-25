@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-
+// components
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
-// components
+import Portfolio from './Portfolio.jsx';
 
-export default class Main extends Component {
+
+
+export class MainDiv extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-
     return (
       <div id="page">
         <Header/>
-        <p>MAIN</p>
         {this.props.children}
-        <Footer/>
       </div>
     );
   }
