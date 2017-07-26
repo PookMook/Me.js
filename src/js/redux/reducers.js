@@ -104,7 +104,7 @@ const initialState = {infos:[
         description:"Didn't had a Resume up to date, didn't found a simple generator online, made one. Made using react, react-router, Redux, github-pages",
         scope:"Personal project",
         version:"v.0.1.0",
-        link:"https://github.com/PookMook/me"
+        link:"https://github.com/PookMook/Me.js"
       },
       {
         title:"Genkidama Player",
