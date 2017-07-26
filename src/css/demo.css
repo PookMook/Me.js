@@ -384,6 +384,7 @@ article{
   padding:1em 0;
 }
 article.line {
+  display:-webkit-flex;
   display:flex;
 }
 article.line > div{
@@ -397,6 +398,29 @@ article.line > p:last-child{
   flex:0 0 150px;
   margin-left:1em;
 }
+@media only screen AND (max-width:660px){
+  article.line {
+    -webkit-flex-direction:column;
+    flex-direction: column;
+  }
+  article.line > div{
+    flex: 1 1 auto;
+  }
+  article.line > p:first-child{
+    flex:0 0 auto;
+    margin-right: 0em;
+    order:3;
+  }
+  article.line > p:last-child{
+    flex:0 0 auto;
+    margin-left:0em;
+  }
+  #page > header > nav {
+    margin-bottom: 2em;
+  }
+}
+
+
 article.achivement{
   padding:1em;
 }
@@ -410,9 +434,13 @@ ul li{
 li a.list{
   display:block;
   color:#0d0957;
+  max-width: 100%;
+  overflow: hidden;
 }
 a.external{
   margin-top: 0.5em;
   display:block;
   color:#0d0957;
+  max-width: 100%;
+  overflow: hidden;
 }
