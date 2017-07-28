@@ -95,7 +95,7 @@ const initialState = {infos:[
         required:'Owning a licence of 3DSMax 4'
       },
       {
-        title:'Jeg heiti Arthur',
+        title:'Eyjafjallajökull',
         description:'Helped replant a forest in Iceland, lived through the permanent night and day',
         required:'Spend 6 months in Iceland'
       },
