@@ -60,16 +60,44 @@ const initialState = {infos:[
         city:'Paris, France'
       },
     ],
+    hobbies:[
+      {
+        title:'Sports & Outdoors',
+        description:'Used to play soccer on a competitive level, after an injurry, I had to drop out and play in a casual manner. I still play Soccer (back midfield), ride my bike, hike around the parks in Canada and wander in cities.'
+      },
+      {
+        title:'Gaming',
+        description:'I like testing the gaming mechanics of many different genras and platforms. I\'ve found the competitive part of sports in E-sports, used to play quake3 then CounterStrike, warcraft III and finished my intense gaming with World of Warcraft. Nowadays, i enjoy playing from time to time and test out new mechanics. I have been a huge fan of boardgames as they provide a very good entrance for friends and family who are usually non-gamer people to gather and share a great time (when the dice RNG does like me)',
+      },
+      {
+        title:'Tinkering',
+        description:'I always liked doing stuff with my hands. It started with legos, then shifted to computers later on. Nowadays, I am exploring the wonderfull world of 3D printing and Virtual Reality. I am also a "superback" on kickstater, for the better or worste.',
+      },
+      {
+        title:'Photo/Video',
+        description:'Got a cheap Canon 600D for a birthday, then borrowed the Nikon D700 from my parents, was hooked and ended up with a Canon 6D. Maybe now s time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : https://www.flickr.com/photos/arthur_j/albums/72157636137985083 )',
+      }
+    ],
     achievements:[
+      {
+        title:'You\'ve Made it',
+        description:'Succesfully made it through the Canadian immigration system.',
+        required:'Canadian permanent resident'
+      },
       {
         title:'The Light of Dawn',
         description:'Raid leaded the way in clearing The Burning Crusade and Wrath of the Lich King',
         required:'Spend many nights raiding and managing people in World of Warcraft'
       },
       {
-        title:'You\'ve Made it',
-        description:'Succesfully made it through the Canadian immigration system.',
-        required:'Canadian permanent resident'
+        title:'Mod it up',
+        description:'Modelisator for the Wiwiland Morrowind Moding community.',
+        required:'Owning a licence of 3DSMax 4'
+      },
+      {
+        title:'Jeg heiti Arthur',
+        description:'Helped replant a forest in Iceland, lived through the permanent night and day',
+        required:'Spend 6 months in Iceland'
       },
       {
         title:'EuroTrotter',

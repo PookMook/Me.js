@@ -19,6 +19,10 @@ export default class Misc extends React.Component {
         <h2>Achievements</h2>
         {this.infos.achievements.map((o,i)=>(<Achievement key={"achievements"+i} object={o} />))}
         </section>
+        <section>
+        <h2>Hobbies</h2>
+        {this.infos.hobbies.map((o,i)=>(<article key={"hobbies"+i}><h3>{o.title}</h3><p>{o.description}</p></article>))}
+        </section>
       </div>
     );
   }
