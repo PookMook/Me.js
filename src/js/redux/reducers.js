@@ -3,7 +3,7 @@ const initialState = {infos:[
     lang:'en',
     name:'Arthur Juchereau',
     location:'Gatineau, Qc, Canada',
-    summary:'LAMP and MERN (express/react/nodejs) full stack developper.\n Interested in custom web software to help advance research and expand the realm of possibilities.\n ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities',
+    summary:'LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software to help advance research and expand the realm of possibilities.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities',
     languages:'Fluent in English and French, German functional',
     education:[
       {
@@ -22,7 +22,7 @@ const initialState = {infos:[
       },
       {
         date:'2008, 2010',
-        title:'Web development',
+        title:'Web Development',
         institution:'SUPINFO,  The International Institute of Information Technology',
         city:'Paris, France',
         level:'Bachelor'
@@ -31,7 +31,7 @@ const initialState = {infos:[
     experiences:[
       {
         date:'2014, Present',
-        title:'Tech Ninja, head Developper at Canadian Research Chair of Digital Textualities',
+        title:'Tech Ninja, head Developer at Canadian Research Chair of Digital Textualities',
         description:'Development of custom platform, specifically for academics.\nThis include development in PHP/SQL/HTML5 and Node.js/Sails.js/React/Redux and Datafiles like XML/JSON/YaML',
         city:'Montreal, Qc, Canada'
       },
@@ -44,13 +44,13 @@ const initialState = {infos:[
       {
         date:'2013,2014',
         title:'Webmaster at Les Publications du Quartier Libre',
-        description:'Web Administration of the Student newspapper of the University of Montreal',
+        description:'Web Administration of the Student newspaper of the University of Montreal',
         city:'Montreal, Qc, Canada'
       },
       {
         date:'2011 (6 months)',
         title:'Technician at Canal+',
-        description:'Technican for the Canal+ french TV station\nCabling, Guest preparation',
+        description:'Technician for the Canal+ French TV station\nCabling, Guest preparation',
         city:'Paris, France'
       },
       {
@@ -108,7 +108,7 @@ const initialState = {infos:[
     skills:[
       {
         title:'Development',
-        subskills:['Full Stack developer LAMP and MERN', 'SQL and NoSQL databases', 'HTML5', 'deployement (Git, Docker)', 'SSL certification']
+        subskills:['Full Stack developer LAMP and MERN', 'SQL and NoSQL databases', 'HTML5', 'deployment (Git, Docker)', 'SSL certification']
       },
       {
         title:'Computer Hardware',
@@ -116,7 +116,7 @@ const initialState = {infos:[
       },
       {
         title:'Audio/Video/Photo',
-        subskills:['video transcoding','DSLR operation', 'audio/vidéo/photo captation', 'adobe suit (Lightroom, illustrator, photoshop)', 'Studio preparation', 'lighting configuration and shooting']
+        subskills:['video transcoding','DSLR operation', 'audio/video/photo captation', 'adobe suit (Lightroom, illustrator, photoshop)', 'Studio preparation', 'lighting configuration and shooting']
       }
     ],
     activeProject:[
