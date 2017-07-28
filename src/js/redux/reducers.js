@@ -75,7 +75,7 @@ const initialState = {infos:[
       },
       {
         title:'Photo/Video',
-        description:'Got a cheap Canon 600D for a birthday, then borrowed the Nikon D700 from my parents, was hooked and ended up with a Canon 6D. Maybe now s time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : https://www.flickr.com/photos/arthur_j/albums/72157636137985083 )',
+        description:'Got a cheap Canon 600D for a birthday, then borrowed the Nikon D700 from my parents, was hooked and ended up with a Canon 6D. Maybe now s time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : http://bit.ly/2u53Dro )',
       }
     ],
     achievements:[

@@ -422,7 +422,7 @@ article.line > p:last-child{
 
 
 article.achivement{
-  padding:1em;
+  padding:1em 0;
 }
 article.achivement > h3 {
   margin-bottom: 0.5em;
