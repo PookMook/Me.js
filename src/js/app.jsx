@@ -1,4 +1,5 @@
 import '../css/demo.css'
+import '../data.json'
 import 'font-awesome-webpack'
 
 import React from 'react';
@@ -33,5 +34,19 @@ function renderApp(){
     store.dispatch({type:'LOADINFO',payload:window.location.hash});
   }
 
-  renderApp();
+let resolveFirst = [];
+resolveFirst.push(fetch("/data.json",
+{
+    method: "GET",
+    credentials: 'same-origin'
+})
+.then(function(res){
+  if(!res.ok){throw res.json();}
+  return res.json()})
+.then(function(data){
+  store.dispatch({type:'LOADJSON',payload:data});
+  return null})
+.catch(()=>(null)));
+Promise.all(resolveFirst).then(renderApp).then(function(){
   store.subscribe(renderApp);
+});

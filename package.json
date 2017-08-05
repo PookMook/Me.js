@@ -1,7 +1,7 @@
 {
-  "name": "yamleditor",
+  "name": "Me.js",
   "version": "0.1.0",
-  "description": "Yaml editor using a react form",
+  "description": "Static resume generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EcrituresNumeriques/chaineEditorialeSP.git"
+    "url": "git+https://github.com/PookMook/Me.js.git"
   },
   "author": "Arthur Juchereau",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/issues"
+    "url": "https://github.com/PookMook/Me.js/issues"
   },
-  "homepage": "https://github.com/EcrituresNumeriques/chaineEditorialeSP#readme",
+  "homepage": "https://github.com/PookMook/Me.js#readme",
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
