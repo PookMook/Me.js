@@ -16,16 +16,16 @@ export default class Resume extends React.Component {
     return (
       <div>
         <section>
-        <h2>Education</h2>
-        {this.infos.education.map((o,i)=>(<Education key={"education"+i} object={o}/>))}
+          <h2>Skillsets</h2>
+          {this.infos.skills.map((o,i)=>(<article key={"skillset"+i}><p><strong>{o.title}</strong> : {o.subskills.join(', ')} </p></article>))}
         </section>
         <section>
         <h2>Experiences</h2>
         {this.infos.experiences.map((o,i)=>(<Experience key={"xp"+i} object={o} index={i}/>))}
         </section>
         <section>
-        <h2>Skillsets</h2>
-        {this.infos.skills.map((o,i)=>(<article key={"skillset"+i}><p><strong>{o.title}</strong> : {o.subskills.join(', ')} </p></article>))}
+          <h2>Education</h2>
+          {this.infos.education.map((o,i)=>(<Education key={"education"+i} object={o}/>))}
         </section>
       </div>
     );
