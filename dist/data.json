@@ -153,7 +153,7 @@
       "description": "Edition platform for scholars. Provide an editor to help academics write in WYSIWYM (What you see is what you mean) loaded with metadata and bibliography inlined within the text. Then deal with the multiple output needed for academic papers, memoir or thesis",
       "scope": "Canadian Research Chaire on Digital Textualities",
       "version": "v.0.3.0",
-      "link": "https://github.com/EcrituresNumeriques/stylo"
+      "link": "https://github.com/PookMook/Me.js"
     },
     {
      "title": "Anthologia Palatina",
@@ -168,14 +168,7 @@
      "scope": "Personal project",
      "version": "v.0.1.0",
      "link": "https://github.com/PookMook/Me.js"
-   },
-   {
-    "title": "Genkidama Player",
-    "description": "Serverless video distribution platform using IPFS to serve files, VideoContext to enhance and make videos interactive. Made using IPFS, VideoContext, Electron",
-    "scope": "Personal project",
-    "version": "Exploration of technology",
-    "link": "https://github.com/PookMook/Genkidama"
-  },
+    }
 
    ],
    "portfolio": [
