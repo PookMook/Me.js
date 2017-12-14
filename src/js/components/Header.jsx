@@ -18,7 +18,7 @@ export default class Header extends React.Component {
         </nav>
         <h1>{infos.name}</h1>
         <p>{infos.location}</p>
-        {store.getState().contact? <p>{store.getState().contact}</p>:''}
+        {infos.contact? <p>{infos.contact}</p>:''}
         {infos.summary.split('\n').map((o,i)=>(<p key={"summary"+i}>{o}</p>))}
         <p>{infos.languages}</p>
       </header>
