@@ -30,10 +30,6 @@ function renderApp(){
     document.querySelector('#app'));
   }
 
-  if(window.location.hash) {
-    store.dispatch({type:'LOADINFO',payload:window.location.hash});
-  }
-
 let resolveFirst = [];
 resolveFirst.push(fetch("/data.json",
 {
