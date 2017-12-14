@@ -1,7 +1,8 @@
-[
+const init = [
   {
    "lang": "en",
    "name": "Arthur Juchereau",
+   "contact": "arthur.juchereau@gmail.com",
    "location": "Gatineau, Qc, Canada",
    "summary": "LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities",
    "languages": "Fluent in English and French, German functional",
@@ -63,25 +64,25 @@
    "hobbies": [
     {
      "title": "Sports & Outdoors",
-     "description": "Used to play soccer on a competitive level, after an injurry, I had to drop out and play in a casual manner. I still play Soccer (back midfield), ride my bike, hike around the parks in Canada and wander in cities."
+     "description": "Used to play soccer on a competitive level, after an injury, I had to drop out and play in a casual way. I still play Soccer (back midfield), ride my bike, hike around the parks in Canada and wander in cities."
     },
     {
      "title": "Gaming",
-     "description": "I like testing the gaming mechanics of many different genras and platforms. I've found the competitive part of sports in E-sports, used to play quake3 then CounterStrike, warcraft III and finished my intense gaming with World of Warcraft. Nowadays, i enjoy playing from time to time and test out new mechanics. I have been a huge fan of boardgames as they provide a very good entrance for friends and family who are usually non-gamer people to gather and share a great time (when the dice RNG does like me)"
+     "description": "I like testing the gaming mechanics of different genres and platforms. I've found the competitive part of sports in E-sports, used to play quake3 then CounterStrike, warcraft III and finished my intense gaming with World of Warcraft. Nowadays, i enjoy playing from time to time and test out new mechanics. I have been a huge fan of board games as they give a very good entrance for friends and family who are usually non-gamer people to gather and share a great time (when the dice RNG does like me)"
     },
     {
      "title": "Tinkering",
-     "description": "I always liked doing stuff with my hands. It started with legos, then shifted to computers later on. Nowadays, I am exploring the wonderfull world of 3D printing and Virtual Reality. I am also a \"superback\" on kickstater, for the better or worste."
+     "description": "I always liked doing stuff with my hands. It started with legos, then shifted to computers later on. Nowadays, I am exploring the wonderful world of 3D printing and Virtual Reality. I am also a \"superbacker\" on kickstater, for the better or worse."
     },
     {
      "title": "Photo/Video",
-     "description": "Got a cheap Canon 600D for a birthday, then borrowed the Nikon D700 from my parents, was hooked and ended up with a Canon 6D. Maybe now s time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : http://bit.ly/2u53Dro )"
+     "description": "A cheap Canon 600D for a birthday, then the Nikon D700 from my parents, hooked me into photography. I now own a Canon 6D. Maybe now's time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : http://bit.ly/2u53Dro )"
     }
    ],
    "achievements": [
     {
      "title": "You've Made it",
-     "description": "Succesfully made it through the Canadian immigration system.",
+     "description": "Successfully made it through the Canadian immigration system.",
      "required": "Canadian permanent resident"
     },
     {
@@ -109,12 +110,18 @@
     {
      "title": "Backend",
      "subskills": [
+      "Dedicated/Virtual private server administration",
       "Linux/Apache/MYSQL/PHP stack",
       "Mongo/Express/Node stack",
       "SQL and NoSQL databases",
+      "Erlang/Elixir/Phoenix",
       "deployment (Git, Docker)",
       "SSL certification"
      ]
+    },
+    {
+      "title":"Data science",
+      "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"]
     },
     {
      "title": "Frontend",
@@ -151,16 +158,23 @@
      {
       "title": "Stylo.js",
       "description": "Edition platform for scholars. Provide an editor to help academics write in WYSIWYM (What you see is what you mean) loaded with metadata and bibliography inlined within the text. Then deal with the multiple output needed for academic papers, memoir or thesis",
-      "scope": "Canadian Research Chaire on Digital Textualities",
+      "scope": "Canadian Research Chair on Digital Textualities",
       "version": "v.0.3.0",
-      "link": "https://github.com/PookMook/Me.js"
+      "link": "https://github.com/EcrituresNumeriques/stylo"
     },
     {
      "title": "Anthologia Palatina",
-     "description": "Platform to enable scholars to translate greek manuscrits ans align those translations. Made using Sails.js, react, Docker",
-     "scope": "Canadian Research Chaire on Digital Textualities",
+     "description": "Platform to enable scholars to translate greek manuscripts and then align translations. Made using Sails.js, react, Docker",
+     "scope": "Canadian Research Chair on Digital Textualities",
      "version": "v0.9.0",
      "link": "http://anthologia.ecrituresnumeriques.ca/"
+    },
+    {
+      "title": "openRaid",
+      "description": "Online Raid/party management for World of Warcraft",
+      "scope": "Personal",
+      "version": "v.0.6.0",
+      "link": "https://github.com/PookMook/openRaid"
     },
     {
      "title": "Me.js",
@@ -168,8 +182,14 @@
      "scope": "Personal project",
      "version": "v.0.1.0",
      "link": "https://github.com/PookMook/Me.js"
-    }
-
+   },
+   {
+     "title": "Genkidama Player",
+     "description": "Serverless video distribution platform using IPFS to serve files, VideoContext to enhance and make videos interactive. Made using IPFS, VideoContext, Electron",
+     "scope": "Personal project",
+     "version": "Exploration of technology",
+     "link": "https://github.com/PookMook/Genkidama"
+   }
    ],
    "portfolio": [
     {
@@ -182,14 +202,14 @@
     {
      "title": "YamlEditor",
      "description": "Quick YAML editor for the publication Sens-Public, enable non-tech to enrich article using YAML. Made using react, JS-Yaml",
-     "scope": "Canadian Research Chaire on Digital Textualities",
+     "scope": "Canadian Research Chair on Digital Textualities",
      "version": "production",
      "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases"
     },
     {
      "title": "lightium",
      "description": "Lightweight CMS for scholars to easily publish to the web, fetch information from their zotero repository and build their corpus automatically.  Made using PHP, HTML5, SQLite, Docker",
-     "scope": "Canadian Research Chaire on Digital Textualities",
+     "scope": "Canadian Research Chair on Digital Textualities",
      "version": "production",
      "exemples": [
       "http://ecrituresnumeriques.ca/fr/",
@@ -200,4 +220,5 @@
     }
    ]
   }
-]
+];
+export default init;
