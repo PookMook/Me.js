@@ -12,21 +12,24 @@ const init = [
      "title": "Art, Creation and Technologies",
      "institution": "University of Montreal",
      "city": "Montreal, Qc, Canada",
-     "level": "Post-Graduate Diploma"
+     "level": "Post-Graduate Diploma",
+     "cardType": "Education"
     },
     {
      "date": "2010, 2013",
      "title": "Network Architecture and Web development",
      "institution": "Université Pierre et Marie Curie (Paris VI)",
      "city": "Paris, France",
-     "level": "Master"
+     "level": "Master",
+     "cardType": "Education"
     },
     {
      "date": "2008, 2010",
      "title": "Web Development",
      "institution": "SUPINFO,  The International Institute of Information Technology",
      "city": "Paris, France",
-     "level": "Bachelor"
+     "level": "Bachelor",
+     "cardType": "Education"
     }
    ],
    "experiences": [
@@ -34,76 +37,90 @@ const init = [
      "date": "2014, Present",
      "title": "Tech Ninja, head Developer at Canadian Research Chair of Digital Textualities",
      "description": "Development of custom platform, specifically for academics.\nThis include development in PHP/SQL/HTML5 and Node.js/Sails.js/React/Redux and Datafiles like XML/JSON/YaML",
-     "city": "Montreal, Qc, Canada"
+     "city": "Montreal, Qc, Canada",
+     "cardType": "Experience"
     },
     {
      "date": "2014, 2017",
      "title": "CTO at Launchleap",
      "description": "Development from the initial proof of concept of an interactive survey/crowdsourcing app to a fully fledged platform usable by our clients on their own.\nAgile project management, Training of staff\nFull stack development in PHP/MySQL/HTML5\nSysAdmin LAMP + security hardening",
-     "city": "Montreal, Qc, Canada"
+     "city": "Montreal, Qc, Canada",
+     "cardType": "Experience"
     },
     {
      "date": "2013,2014",
      "title": "Webmaster at Les Publications du Quartier Libre",
      "description": "Web Administration of the Student newspaper of the University of Montreal",
-     "city": "Montreal, Qc, Canada"
+     "city": "Montreal, Qc, Canada",
+     "cardType": "Experience"
     },
     {
      "date": "2011 (6 months)",
      "title": "Technician at Canal+",
      "description": "Technician for the Canal+ French TV station\nCabling, Guest preparation",
-     "city": "Paris, France"
+     "city": "Paris, France",
+     "cardType": "Experience"
     },
     {
      "date": "2010, 2011",
      "title": "GameShow demonstrator, Sony Computer Entertainment Europe",
      "description": "Setup and logistic of Playstation European gameshow booths.\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
-     "city": "Paris, France"
+     "city": "Paris, France",
+     "cardType": "Experience"
     }
    ],
    "hobbies": [
     {
      "title": "Sports & Outdoors",
-     "description": "Used to play soccer on a competitive level, after an injury, I had to drop out and play in a casual way. I still play Soccer (back midfield), ride my bike, hike around the parks in Canada and wander in cities."
+     "description": "Used to play soccer on a competitive level, after an injury, I had to drop out and play in a casual way. I still play Soccer (back midfield), ride my bike, hike around the parks in Canada and wander in cities.",
+     "cardType": "Achievements"
     },
     {
      "title": "Gaming",
-     "description": "I like testing the gaming mechanics of different genres and platforms. I've found the competitive part of sports in E-sports, used to play quake3 then CounterStrike, warcraft III and finished my intense gaming with World of Warcraft. Nowadays, i enjoy playing from time to time and test out new mechanics. I have been a huge fan of board games as they give a very good entrance for friends and family who are usually non-gamer people to gather and share a great time (when the dice RNG does like me)"
+     "description": "I like testing the gaming mechanics of different genres and platforms. I've found the competitive part of sports in E-sports, used to play quake3 then CounterStrike, warcraft III and finished my intense gaming with World of Warcraft. Nowadays, i enjoy playing from time to time and test out new mechanics. I have been a huge fan of board games as they give a very good entrance for friends and family who are usually non-gamer people to gather and share a great time (when the dice RNG does like me)",
+     "cardType": "Achievements"
     },
     {
      "title": "Tinkering",
-     "description": "I always liked doing stuff with my hands. It started with legos, then shifted to computers later on. Nowadays, I am exploring the wonderful world of 3D printing and Virtual Reality. I am also a \"superbacker\" on kickstater, for the better or worse."
+     "description": "I always liked doing stuff with my hands. It started with legos, then shifted to computers later on. Nowadays, I am exploring the wonderful world of 3D printing and Virtual Reality. I am also a \"superbacker\" on kickstater, for the better or worse.",
+     "cardType": "Achievements"
     },
     {
      "title": "Photo/Video",
-     "description": "A cheap Canon 600D for a birthday, then the Nikon D700 from my parents, hooked me into photography. I now own a Canon 6D. Maybe now's time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : http://bit.ly/2u53Dro )"
+     "description": "A cheap Canon 600D for a birthday, then the Nikon D700 from my parents, hooked me into photography. I now own a Canon 6D. Maybe now's time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : http://bit.ly/2u53Dro )",
+     "cardType": "Achievements"
     }
    ],
    "achievements": [
     {
      "title": "You've Made it",
      "description": "Successfully made it through the Canadian immigration system.",
-     "required": "Canadian permanent resident"
+     "required": "Canadian permanent resident",
+     "cardType": "Achievements"
     },
     {
      "title": "The Light of Dawn",
      "description": "Raid leaded the way in clearing The Burning Crusade and Wrath of the Lich King",
-     "required": "Spend many nights raiding and managing people in World of Warcraft"
+     "required": "Spend many nights raiding and managing people in World of Warcraft",
+     "cardType": "Achievements"
     },
     {
      "title": "Mod it up",
      "description": "Modelisator for the Wiwiland Morrowind Moding community.",
-     "required": "Owning a licence of 3DSMax 4"
+     "required": "Owning a licence of 3DSMax 4",
+     "cardType": "Achievements"
     },
     {
      "title": "Eyjafjallajökull",
      "description": "Helped replant a forest in Iceland, lived through the permanent night and day",
-     "required": "Spend 5 months in Iceland"
+     "required": "Spend 5 months in Iceland",
+     "cardType": "Achievements"
     },
     {
      "title": "EuroTrotter",
      "description": "User of the Interrail unlimited train ticket.",
-     "required": "Visit more than 30 european capitals"
+     "required": "Visit more than 30 european capitals",
+     "cardType": "Achievements"
     }
    ],
    "skills": [
@@ -117,11 +134,13 @@ const init = [
       "Erlang/Elixir/Phoenix",
       "deployment (Git, Docker)",
       "SSL certification"
-     ]
+     ],
+     "cardType": "Skillset"
     },
     {
       "title":"Data science",
-      "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"]
+      "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"],
+      "cardType": "Skillset"
     },
     {
      "title": "Frontend",
@@ -130,7 +149,8 @@ const init = [
       "CSS2/3/4",
       "Javascript(ES5,ES6,ES7)",
       "React/Redux/Router"
-     ]
+     ],
+     "cardType": "Skillset"
     },
     {
      "title": "Computer Hardware",
@@ -140,7 +160,8 @@ const init = [
       "computer part selection",
       "assembly and maintenance",
       "electronic repair"
-     ]
+     ],
+     "cardType": "Skillset"
     },
     {
      "title": "Audio/Video/Photo",
@@ -151,7 +172,8 @@ const init = [
       "adobe suit (Lightroom, illustrator, photoshop)",
       "Studio preparation",
       "lighting configuration and shooting"
-     ]
+     ],
+     "cardType": "Skillset"
     }
    ],
    "activeProject": [
@@ -160,35 +182,40 @@ const init = [
       "description": "Edition platform for scholars. Provide an editor to help academics write in WYSIWYM (What you see is what you mean) loaded with metadata and bibliography inlined within the text. Then deal with the multiple output needed for academic papers, memoir or thesis",
       "scope": "Canadian Research Chair on Digital Textualities",
       "version": "v.0.3.0",
-      "link": "https://github.com/EcrituresNumeriques/stylo"
+      "link": "https://github.com/EcrituresNumeriques/stylo",
+      "cardType": "Project"
     },
     {
      "title": "Anthologia Palatina",
      "description": "Platform to enable scholars to translate greek manuscripts and then align translations. Made using Sails.js, react, Docker",
      "scope": "Canadian Research Chair on Digital Textualities",
      "version": "v0.9.0",
-     "link": "http://anthologia.ecrituresnumeriques.ca/"
+     "link": "http://anthologia.ecrituresnumeriques.ca/",
+     "cardType": "Project"
     },
     {
       "title": "openRaid",
       "description": "Online Raid/party management for World of Warcraft",
       "scope": "Personal",
       "version": "v.0.6.0",
-      "link": "https://github.com/PookMook/openRaid"
+      "link": "https://github.com/PookMook/openRaid",
+      "cardType": "Project"
     },
     {
      "title": "Me.js",
      "description": "Didn't had a Resume up to date, didn't found a simple generator online, made one. Made using react, react-router, Redux, github-pages",
      "scope": "Personal project",
      "version": "v.0.1.0",
-     "link": "https://github.com/PookMook/Me.js"
+     "link": "https://github.com/PookMook/Me.js",
+     "cardType": "Project"
    },
    {
      "title": "Genkidama Player",
      "description": "Serverless video distribution platform using IPFS to serve files, VideoContext to enhance and make videos interactive. Made using IPFS, VideoContext, Electron",
      "scope": "Personal project",
      "version": "Exploration of technology",
-     "link": "https://github.com/PookMook/Genkidama"
+     "link": "https://github.com/PookMook/Genkidama",
+     "cardType": "Project"
    }
    ],
    "portfolio": [
@@ -197,14 +224,16 @@ const init = [
      "description": "Crowdsourcing platform. Basically Kickstarter but replacing money by feedback. Coded this from scratch. Made using PHP, HTML5/JQuery",
      "scope": "CTO of Launchleap",
      "version": "production",
-     "link": "https://launchleap.com"
+     "link": "https://launchleap.com",
+     "cardType": "Portfolio"
     },
     {
      "title": "YamlEditor",
      "description": "Quick YAML editor for the publication Sens-Public, enable non-tech to enrich article using YAML. Made using react, JS-Yaml",
      "scope": "Canadian Research Chair on Digital Textualities",
      "version": "production",
-     "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases"
+     "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases",
+     "cardType": "Portfolio"
     },
     {
      "title": "lightium",
@@ -216,7 +245,8 @@ const init = [
       "http://technes.org/fr/",
       "http://biocultura.ca/fr/"
      ],
-     "link": "https://github.com/EcrituresNumeriques/Lightium"
+     "link": "https://github.com/EcrituresNumeriques/Lightium",
+     "cardType": "Portfolio"
     }
    ]
   }
