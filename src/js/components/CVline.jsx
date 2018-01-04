@@ -15,6 +15,18 @@ export function Main(props){
       return(<Education {...props}/>);
     break;
 
+    case "Project":
+      return(<Project {...props}/>);
+    break;
+
+    case "Achievement":
+      return(<Achievement {...props}/>);
+    break;
+
+    case "Hobby":
+      return(<Hobby {...props}/>);
+    break;
+
     default:
       return(<p>{JSON.stringify(props.object)}</p>);
     break;
@@ -64,4 +76,25 @@ export function SkillSet (props) {
         </p>
       </article>
     );
+}
+
+export function Project (props) {
+    return (
+      <article className="card">
+          <h3>{props.object.title}</h3>
+          <p>{props.object.description}</p>
+          <p>Scope: {props.object.scope}</p>
+          <p>Progression: {props.object.version}</p>
+          {props.object.exemples ? <ul>Examples: {props.object.exemples.map((o,i)=>(<li key={"exemple"+props.index+"-"+i}><a href={o} target="_blank"className="list">{o}</a></li>))}</ul> : ''}
+        <a href={props.object.link} target="_blank" className="external">{props.object.link}</a>
+      </article>
+    );
+}
+export function Hobby (props) {
+  return(
+    <article>
+      <h3>{props.object.title}</h3>
+      <p>{props.object.description}</p>
+    </article>
+  )
 }

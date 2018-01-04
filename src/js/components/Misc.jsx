@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 import { store } from '../redux/store.js';
-import {Achievement} from './CVline.jsx';
+import {Main} from './CVline.jsx';
 
 export default class Misc extends React.Component {
   constructor(props) {
     super(props);
-    this.infos = store.getState().infos['en'];
   }
 
   componentWillMount(){
-    document.title = "Misc | "+this.infos.name;
+    document.title = "Misc | "+store.getState().infos['en'].name;
   }
 
   render() {
+    const infos = store.getState().infos['en'];
     return (
       <div>
-        <section>
-        <h2>Achievements</h2>
-        {this.infos.achievements.map((o,i)=>(<Achievement key={"achievements"+i} object={o} />))}
-        </section>
-        <section>
-        <h2>Hobbies</h2>
-        {this.infos.hobbies.map((o,i)=>(<article key={"hobbies"+i}><h3>{o.title}</h3><p>{o.description}</p></article>))}
-        </section>
+        {Object.keys(infos.Misc).map(function(object,i){
+          return (
+            <section key={'Misc'+i}>
+              <h2>{object}</h2>
+              {infos.Misc[object].map((sub,j)=>(<Main object={sub} key={"Miscline"+i+"-"+j} />))}
+            </section>
+          );
+        })}
       </div>
     );
   }

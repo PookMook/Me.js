@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { store } from '../redux/store.js';
-import {Main, Education, Experience, Achievement,SkillSet} from './CVline.jsx';
+import {Main} from './CVline.jsx';
 
 export default class Resume extends React.Component {
   constructor(props) {

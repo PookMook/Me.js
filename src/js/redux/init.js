@@ -123,133 +123,137 @@ const init = {
       }
      ],
    },
-   "hobbies": [
-    {
-     "title": "Sports & Outdoors",
-     "description": "Used to play soccer on a competitive level, after an injury, I had to drop out and play in a casual way. I still play Soccer (back midfield), ride my bike, hike around the parks in Canada and wander in cities.",
-     "cardType": "Achievements"
-    },
-    {
-     "title": "Gaming",
-     "description": "I like testing the gaming mechanics of different genres and platforms. I've found the competitive part of sports in E-sports, used to play quake3 then CounterStrike, warcraft III and finished my intense gaming with World of Warcraft. Nowadays, i enjoy playing from time to time and test out new mechanics. I have been a huge fan of board games as they give a very good entrance for friends and family who are usually non-gamer people to gather and share a great time (when the dice RNG does like me)",
-     "cardType": "Achievements"
-    },
-    {
-     "title": "Tinkering",
-     "description": "I always liked doing stuff with my hands. It started with legos, then shifted to computers later on. Nowadays, I am exploring the wonderful world of 3D printing and Virtual Reality. I am also a \"superbacker\" on kickstater, for the better or worse.",
-     "cardType": "Achievements"
-    },
-    {
-     "title": "Photo/Video",
-     "description": "A cheap Canon 600D for a birthday, then the Nikon D700 from my parents, hooked me into photography. I now own a Canon 6D. Maybe now's time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : http://bit.ly/2u53Dro )",
-     "cardType": "Achievements"
-    }
-   ],
-   "achievements": [
-    {
-     "title": "You've Made it",
-     "description": "Successfully made it through the Canadian immigration system.",
-     "required": "Canadian permanent resident",
-     "cardType": "Achievements"
-    },
-    {
-     "title": "The Light of Dawn",
-     "description": "Raid leaded the way in clearing The Burning Crusade and Wrath of the Lich King",
-     "required": "Spend many nights raiding and managing people in World of Warcraft",
-     "cardType": "Achievements"
-    },
-    {
-     "title": "Mod it up",
-     "description": "Modelisator for the Wiwiland Morrowind Moding community.",
-     "required": "Owning a licence of 3DSMax 4",
-     "cardType": "Achievements"
-    },
-    {
-     "title": "Eyjafjallajökull",
-     "description": "Helped replant a forest in Iceland, lived through the permanent night and day",
-     "required": "Spend 5 months in Iceland",
-     "cardType": "Achievements"
-    },
-    {
-     "title": "EuroTrotter",
-     "description": "User of the Interrail unlimited train ticket.",
-     "required": "Visit more than 30 european capitals",
-     "cardType": "Achievements"
-    }
-   ],
-   "activeProject": [
-     {
-      "title": "Stylo.js",
-      "description": "Edition platform for scholars. Provide an editor to help academics write in WYSIWYM (What you see is what you mean) loaded with metadata and bibliography inlined within the text. Then deal with the multiple output needed for academic papers, memoir or thesis",
-      "scope": "Canadian Research Chair on Digital Textualities",
-      "version": "v.0.3.0",
-      "link": "https://github.com/EcrituresNumeriques/stylo",
-      "cardType": "Project"
-    },
-    {
-     "title": "Anthologia Palatina",
-     "description": "Platform to enable scholars to translate greek manuscripts and then align translations. Made using Sails.js, react, Docker",
-     "scope": "Canadian Research Chair on Digital Textualities",
-     "version": "v0.9.0",
-     "link": "http://anthologia.ecrituresnumeriques.ca/",
-     "cardType": "Project"
-    },
-    {
-      "title": "openRaid",
-      "description": "Online Raid/party management for World of Warcraft",
-      "scope": "Personal",
-      "version": "v.0.6.0",
-      "link": "https://github.com/PookMook/openRaid",
-      "cardType": "Project"
-    },
-    {
-     "title": "Me.js",
-     "description": "Didn't had a Resume up to date, didn't found a simple generator online, made one. Made using react, react-router, Redux, github-pages",
-     "scope": "Personal project",
-     "version": "v.0.1.0",
-     "link": "https://github.com/PookMook/Me.js",
-     "cardType": "Project"
-   },
-   {
-     "title": "Genkidama Player",
-     "description": "Serverless video distribution platform using IPFS to serve files, VideoContext to enhance and make videos interactive. Made using IPFS, VideoContext, Electron",
-     "scope": "Personal project",
-     "version": "Exploration of technology",
-     "link": "https://github.com/PookMook/Genkidama",
-     "cardType": "Project"
-   }
-   ],
-   "portfolio": [
-    {
-     "title": "LaunchLeap",
-     "description": "Crowdsourcing platform. Basically Kickstarter but replacing money by feedback. Coded this from scratch. Made using PHP, HTML5/JQuery",
-     "scope": "CTO of Launchleap",
-     "version": "production",
-     "link": "https://launchleap.com",
-     "cardType": "Portfolio"
-    },
-    {
-     "title": "YamlEditor",
-     "description": "Quick YAML editor for the publication Sens-Public, enable non-tech to enrich article using YAML. Made using react, JS-Yaml",
-     "scope": "Canadian Research Chair on Digital Textualities",
-     "version": "production",
-     "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases",
-     "cardType": "Portfolio"
-    },
-    {
-     "title": "lightium",
-     "description": "Lightweight CMS for scholars to easily publish to the web, fetch information from their zotero repository and build their corpus automatically.  Made using PHP, HTML5, SQLite, Docker",
-     "scope": "Canadian Research Chair on Digital Textualities",
-     "version": "production",
-     "exemples": [
-      "http://ecrituresnumeriques.ca/fr/",
-      "http://technes.org/fr/",
-      "http://biocultura.ca/fr/"
+   "Portfolio":{
+     "Active projects": [
+       {
+         "title": "Stylo.js",
+         "description": "Edition platform for scholars. Provide an editor to help academics write in WYSIWYM (What you see is what you mean) loaded with metadata and bibliography inlined within the text. Then deal with the multiple output needed for academic papers, memoir or thesis",
+         "scope": "Canadian Research Chair on Digital Textualities",
+         "version": "v.0.3.0",
+         "link": "https://github.com/EcrituresNumeriques/stylo",
+         "cardType": "Project"
+       },
+       {
+         "title": "Anthologia Palatina",
+         "description": "Platform to enable scholars to translate greek manuscripts and then align translations. Made using Sails.js, react, Docker",
+         "scope": "Canadian Research Chair on Digital Textualities",
+         "version": "v0.9.0",
+         "link": "http://anthologia.ecrituresnumeriques.ca/",
+         "cardType": "Project"
+       },
+       {
+         "title": "openRaid",
+         "description": "Online Raid/party management for World of Warcraft",
+         "scope": "Personal",
+         "version": "v.0.6.0",
+         "link": "https://github.com/PookMook/openRaid",
+         "cardType": "Project"
+       },
+       {
+         "title": "Me.js",
+         "description": "Didn't had a Resume up to date, didn't found a simple generator online, made one. Made using react, react-router, Redux, github-pages",
+         "scope": "Personal project",
+         "version": "v.0.1.0",
+         "link": "https://github.com/PookMook/Me.js",
+         "cardType": "Project"
+       },
+       {
+         "title": "Genkidama Player",
+         "description": "Serverless video distribution platform using IPFS to serve files, VideoContext to enhance and make videos interactive. Made using IPFS, VideoContext, Electron",
+         "scope": "Personal project",
+         "version": "Exploration of technology",
+         "link": "https://github.com/PookMook/Genkidama",
+         "cardType": "Project"
+       }
      ],
-     "link": "https://github.com/EcrituresNumeriques/Lightium",
-     "cardType": "Portfolio"
-    }
-   ]
+     "Past Projects": [
+       {
+         "title": "LaunchLeap",
+         "description": "Crowdsourcing platform. Basically Kickstarter but replacing money by feedback. Coded this from scratch. Made using PHP, HTML5/JQuery",
+         "scope": "CTO of Launchleap",
+         "version": "production",
+         "link": "https://launchleap.com",
+         "cardType": "Project"
+       },
+       {
+         "title": "YamlEditor",
+         "description": "Quick YAML editor for the publication Sens-Public, enable non-tech to enrich article using YAML. Made using react, JS-Yaml",
+         "scope": "Canadian Research Chair on Digital Textualities",
+         "version": "production",
+         "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases",
+         "cardType": "Project"
+       },
+       {
+         "title": "lightium",
+         "description": "Lightweight CMS for scholars to easily publish to the web, fetch information from their zotero repository and build their corpus automatically.  Made using PHP, HTML5, SQLite, Docker",
+         "scope": "Canadian Research Chair on Digital Textualities",
+         "version": "production",
+         "exemples": [
+           "http://ecrituresnumeriques.ca/fr/",
+           "http://technes.org/fr/",
+           "http://biocultura.ca/fr/"
+         ],
+         "link": "https://github.com/EcrituresNumeriques/Lightium",
+         "cardType": "Project"
+       }
+     ]
+   },
+   "Misc":{
+     "Achievements": [
+       {
+         "title": "You've Made it",
+         "description": "Successfully made it through the Canadian immigration system.",
+         "required": "Canadian permanent resident",
+         "cardType": "Achievement"
+       },
+       {
+         "title": "The Light of Dawn",
+         "description": "Raid leaded the way in clearing The Burning Crusade and Wrath of the Lich King",
+         "required": "Spend many nights raiding and managing people in World of Warcraft",
+         "cardType": "Achievement"
+       },
+       {
+         "title": "Mod it up",
+         "description": "Modelisator for the Wiwiland Morrowind Moding community.",
+         "required": "Owning a licence of 3DSMax 4",
+         "cardType": "Achievement"
+       },
+       {
+         "title": "Eyjafjallajökull",
+         "description": "Helped replant a forest in Iceland, lived through the permanent night and day",
+         "required": "Spend 5 months in Iceland",
+         "cardType": "Achievement"
+       },
+       {
+         "title": "EuroTrotter",
+         "description": "User of the Interrail unlimited train ticket.",
+         "required": "Visit more than 30 european capitals",
+         "cardType": "Achievement"
+       }
+     ],
+     "Hobbies": [
+       {
+         "title": "Sports & Outdoors",
+         "description": "Used to play soccer on a competitive level, after an injury, I had to drop out and play in a casual way. I still play Soccer (back midfield), ride my bike, hike around the parks in Canada and wander in cities.",
+         "cardType": "Hobby"
+       },
+       {
+         "title": "Gaming",
+         "description": "I like testing the gaming mechanics of different genres and platforms. I've found the competitive part of sports in E-sports, used to play quake3 then CounterStrike, warcraft III and finished my intense gaming with World of Warcraft. Nowadays, i enjoy playing from time to time and test out new mechanics. I have been a huge fan of board games as they give a very good entrance for friends and family who are usually non-gamer people to gather and share a great time (when the dice RNG does like me)",
+         "cardType": "Hobby"
+       },
+       {
+         "title": "Tinkering",
+         "description": "I always liked doing stuff with my hands. It started with legos, then shifted to computers later on. Nowadays, I am exploring the wonderful world of 3D printing and Virtual Reality. I am also a \"superbacker\" on kickstater, for the better or worse.",
+         "cardType": "Hobby"
+       },
+       {
+         "title": "Photo/Video",
+         "description": "A cheap Canon 600D for a birthday, then the Nikon D700 from my parents, hooked me into photography. I now own a Canon 6D. Maybe now's time for an upgrade! #GearAquisitionSyndrome. I use my DSLR to shoot concerts, landscape and cities. I also was filming concert as my day job at Canal+ and still do from times to time when friends need a videographer that knows how to record sound. (some of my pictures : http://bit.ly/2u53Dro )",
+         "cardType": "Hobby"
+       }
+     ],
+   }
   }
 };
 export default init;

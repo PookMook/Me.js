@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 import { store } from '../redux/store.js';
-import { Card } from './Card.jsx';
+import {Main} from './CVline.jsx';
 
 export default class Portfolio extends React.Component {
   constructor(props) {
     super(props);
-    this.infos = store.getState().infos['en'];
   }
 
   componentWillMount(){
-    document.title = "Portfolio | "+this.infos.name;
+    document.title = "Portfolio | "+store.getState().infos['en'].name;
   }
 
   render() {
+    const infos = store.getState().infos['en'];
     return (
       <div>
-        <section>
-        <h2>Active projects</h2>
-        {this.infos.activeProject.map((o,i)=>(<Card key={"xp"+i} object={o} index={i}/>))}
-        </section>
-        <section>
-        <h2>Past Projects</h2>
-        {this.infos.portfolio.map((o,i)=>(<Card key={"xp"+i} object={o} index={i}/>))}
-        </section>
+        {Object.keys(infos.Portfolio).map(function(object,i){
+          return (
+            <section key={'Portfolio'+i}>
+              <h2>{object}</h2>
+              {infos.Portfolio[object].map((sub,j)=>(<Main object={sub} key={"Portfolioline"+i+"-"+j} />))}
+            </section>
+          );
+        })}
       </div>
     );
   }
