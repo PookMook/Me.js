@@ -4,8 +4,8 @@ import {Main} from './CVline.jsx';
 
 export function Category (props) {
     const lang = props.params.lang || store.getState().infos.default.lang;
-    const infos = store.getState().infos.languages[lang].data;
-    document.title = props.params.category + " | "+store.getState().infos.languages[lang].meta.name;
+    const infos = store.getState().infos[lang].data;
+    document.title = props.params.category + " | "+store.getState().infos[lang].meta.name;
     return (
       <div>
         {!infos || !infos[props.params.category] && <p>404, category not found</p>}

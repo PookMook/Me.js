@@ -13,13 +13,15 @@ require('./../logo.png');
 import _ from 'lodash';
 
 function renderApp(){
+  const lang = Object.keys(store.getState().infos)[0];
+  const cat = Object.keys(store.getState().infos[lang].data)[0];
   render(
     <Provider store={store}>
       <Router history={browserHistory}>
         <Route path="/" component={MainDiv}>
           <Route path="/:category" component={Category} />
           <Route path="/:lang/:category" component={Category} />
-          <IndexRedirect to={"/"+store.getState().infos.default.lang+"/"+store.getState().infos.default.path}/>
+          <IndexRedirect to={"/"+lang+"/"+cat}/>
         </Route>
       </Router>
     </Provider>,
