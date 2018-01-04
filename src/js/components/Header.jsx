@@ -9,12 +9,13 @@ export default class Header extends React.Component {
 
   render() {
     let infos = store.getState().infos['en'].meta;
+    let data = store.getState().infos['en'].data;
     return (
       <header>
         <nav>
-          <Link to="/resume" activeStyle={{ 'fontWeight': 'bold' }}>Resume</Link>
-          <Link to="/portfolio" activeStyle={{ 'fontWeight': 'bold' }}>Portfolio</Link>
-          <Link to="/misc" activeStyle={{ 'fontWeight': 'bold' }}>Misc</Link>
+          {Object.keys(data).map((cat)=>
+            (<Link to={"/"+cat} key={"category"+cat} activeStyle={{ 'fontWeight': 'bold' }}>{cat}</Link>)
+          )}
         </nav>
         <h1>{infos.name}</h1>
         <p>{infos.location}</p>

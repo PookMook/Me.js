@@ -12,7 +12,7 @@ export default class Misc extends React.Component {
   }
 
   render() {
-    const infos = store.getState().infos['en'];
+    const infos = store.getState().infos['en'].data;
     return (
       <div>
         {Object.keys(infos.Misc).map(function(object,i){

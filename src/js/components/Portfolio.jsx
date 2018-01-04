@@ -12,7 +12,7 @@ export default class Portfolio extends React.Component {
   }
 
   render() {
-    const infos = store.getState().infos['en'];
+    const infos = store.getState().infos['en'].data;
     return (
       <div>
         {Object.keys(infos.Portfolio).map(function(object,i){
