@@ -19,7 +19,7 @@ function renderApp(){
         <Route path="/" component={MainDiv}>
           <Route path="/:category" component={Category} />
           <Route path="/:lang/:category" component={Category} />
-          <IndexRedirect to="/en/CV"/>
+          <IndexRedirect to={"/"+store.getState().infos.default.lang+"/"+store.getState().infos.default.path}/>
         </Route>
       </Router>
     </Provider>,

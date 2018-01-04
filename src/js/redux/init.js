@@ -1,4 +1,8 @@
 const init = {
+  "default" : {
+    "lang":"en",
+    "path":"Portfolio"
+  },
   en :{
     meta:{
       "name": "Arthur Juchereau",

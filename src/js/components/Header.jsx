@@ -3,7 +3,7 @@ import { store } from '../redux/store.js';
 import { Link } from 'react-router';
 
 export function Header (props) {
-    const lang = props.params.lang || "en";
+    const lang = props.params.lang || store.getState().infos.default.lang;
     let infos = store.getState().infos[lang].meta;
     let data = store.getState().infos[lang].data;
     return (
