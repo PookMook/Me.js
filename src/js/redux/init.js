@@ -1,7 +1,7 @@
 const init = {
   "default" : {
     "lang":"en",
-    "path":"Portfolio"
+    "path":"CV"
   },
   en :{
     meta:{
