@@ -7,7 +7,8 @@ export function Category (props) {
     document.title = props.params.category + " | "+store.getState().infos['en'].meta.name;
     return (
       <div>
-        {Object.keys(infos[props.params.category]).map(function(object,i){
+        {!infos || !infos[props.params.category] && <p>404, category not found</p>}
+        {infos && infos[props.params.category] && Object.keys(infos[props.params.category]).map(function(object,i){
           return (
             <section key={props.params.category+i}>
               <h2>{object}</h2>

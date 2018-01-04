@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // components
 import Header from './Header.jsx';
-import Portfolio from './Portfolio.jsx';
 
 
 

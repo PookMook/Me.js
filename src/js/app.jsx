@@ -18,7 +18,7 @@ function renderApp(){
       <Router history={browserHistory}>
         <Route path="/" component={MainDiv}>
           <Route path="/:category" component={Category} />
-          <IndexRedirect to="/Resume"/>
+          <IndexRedirect to="/CV"/>
         </Route>
       </Router>
     </Provider>,

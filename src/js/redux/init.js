@@ -8,7 +8,7 @@ const init = {
       "languages": "Fluent in English and French, German functional",
     },
    "data":{
-     "Resume":{
+     "CV":{
        "Skillsets": [
          {
            "title": "Frontend",
