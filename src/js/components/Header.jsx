@@ -4,8 +4,8 @@ import { Link } from 'react-router';
 
 export function Header (props) {
     const lang = props.params.lang || store.getState().infos.default.lang;
-    let infos = store.getState().infos[lang].meta;
-    let data = store.getState().infos[lang].data;
+    let infos = store.getState().infos.languages[lang].meta;
+    let data = store.getState().infos.languages[lang].data;
     return (
       <header>
         <nav>
