@@ -8,7 +8,7 @@ export default class Header extends React.Component {
   }
 
   render() {
-    let infos = store.getState().infos[0];
+    let infos = store.getState().infos['en'];
     return (
       <header>
         <nav>

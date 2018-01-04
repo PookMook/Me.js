@@ -5,7 +5,7 @@ import {Achievement} from './CVline.jsx';
 export default class Misc extends React.Component {
   constructor(props) {
     super(props);
-    this.infos = store.getState().infos[0];
+    this.infos = store.getState().infos['en'];
   }
 
   componentWillMount(){

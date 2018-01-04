@@ -1,74 +1,128 @@
-const init = [
-  {
-   "lang": "en",
+const init = {
+  en :{
    "name": "Arthur Juchereau",
    "contact": "arthur.juchereau@gmail.com",
    "location": "Gatineau, Qc, Canada",
    "summary": "LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities",
    "languages": "Fluent in English and French, German functional",
-   "education": [
-    {
-     "date": "2013, 2014",
-     "title": "Art, Creation and Technologies",
-     "institution": "University of Montreal",
-     "city": "Montreal, Qc, Canada",
-     "level": "Post-Graduate Diploma",
-     "cardType": "Education"
-    },
-    {
-     "date": "2010, 2013",
-     "title": "Network Architecture and Web development",
-     "institution": "Université Pierre et Marie Curie (Paris VI)",
-     "city": "Paris, France",
-     "level": "Master",
-     "cardType": "Education"
-    },
-    {
-     "date": "2008, 2010",
-     "title": "Web Development",
-     "institution": "SUPINFO,  The International Institute of Information Technology",
-     "city": "Paris, France",
-     "level": "Bachelor",
-     "cardType": "Education"
-    }
-   ],
-   "experiences": [
-    {
-     "date": "2014, Present",
-     "title": "Tech Ninja, head Developer at Canadian Research Chair of Digital Textualities",
-     "description": "Development of custom platform, specifically for academics.\nThis include development in PHP/SQL/HTML5 and Node.js/Sails.js/React/Redux and Datafiles like XML/JSON/YaML",
-     "city": "Montreal, Qc, Canada",
-     "cardType": "Experience"
-    },
-    {
-     "date": "2014, 2017",
-     "title": "CTO at Launchleap",
-     "description": "Development from the initial proof of concept of an interactive survey/crowdsourcing app to a fully fledged platform usable by our clients on their own.\nAgile project management, Training of staff\nFull stack development in PHP/MySQL/HTML5\nSysAdmin LAMP + security hardening",
-     "city": "Montreal, Qc, Canada",
-     "cardType": "Experience"
-    },
-    {
-     "date": "2013,2014",
-     "title": "Webmaster at Les Publications du Quartier Libre",
-     "description": "Web Administration of the Student newspaper of the University of Montreal",
-     "city": "Montreal, Qc, Canada",
-     "cardType": "Experience"
-    },
-    {
-     "date": "2011 (6 months)",
-     "title": "Technician at Canal+",
-     "description": "Technician for the Canal+ French TV station\nCabling, Guest preparation",
-     "city": "Paris, France",
-     "cardType": "Experience"
-    },
-    {
-     "date": "2010, 2011",
-     "title": "GameShow demonstrator, Sony Computer Entertainment Europe",
-     "description": "Setup and logistic of Playstation European gameshow booths.\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
-     "city": "Paris, France",
-     "cardType": "Experience"
-    }
-   ],
+   "Resume":{
+     "Skillsets": [
+       {
+         "title": "Backend",
+         "subskills": [
+           "Dedicated/Virtual private server administration",
+           "Linux/Apache/MYSQL/PHP stack",
+           "Mongo/Express/Node stack",
+           "SQL and NoSQL databases",
+           "Erlang/Elixir/Phoenix",
+           "deployment (Git, Docker)",
+           "SSL certification"
+         ],
+         "cardType": "Skillset"
+       },
+       {
+         "title":"Data science",
+         "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"],
+         "cardType": "Skillset"
+       },
+       {
+         "title": "Frontend",
+         "subskills": [
+           "HTML5",
+           "CSS2/3/4",
+           "Javascript(ES5,ES6,ES7)",
+           "React/Redux/Router"
+         ],
+         "cardType": "Skillset"
+       },
+       {
+         "title": "Computer Hardware",
+         "subskills": [
+           "Network Architecture",
+           "router/switch administration",
+           "computer part selection",
+           "assembly and maintenance",
+           "electronic repair"
+         ],
+         "cardType": "Skillset"
+       },
+       {
+         "title": "Audio/Video/Photo",
+         "subskills": [
+           "video transcoding",
+           "DSLR operation",
+           "audio/video/photo captation",
+           "adobe suit (Lightroom, illustrator, photoshop)",
+           "Studio preparation",
+           "lighting configuration and shooting"
+         ],
+         "cardType": "Skillset"
+       }
+     ],
+     "Experiences": [
+       {
+         "date": "2014, Present",
+         "title": "Tech Ninja, head Developer at Canadian Research Chair of Digital Textualities",
+         "description": "Development of custom platform, specifically for academics.\nThis include development in PHP/SQL/HTML5 and Node.js/Sails.js/React/Redux and Datafiles like XML/JSON/YaML",
+         "city": "Montreal, Qc, Canada",
+         "cardType": "Experience"
+       },
+       {
+         "date": "2014, 2017",
+         "title": "CTO at Launchleap",
+         "description": "Development from the initial proof of concept of an interactive survey/crowdsourcing app to a fully fledged platform usable by our clients on their own.\nAgile project management, Training of staff\nFull stack development in PHP/MySQL/HTML5\nSysAdmin LAMP + security hardening",
+         "city": "Montreal, Qc, Canada",
+         "cardType": "Experience"
+       },
+       {
+         "date": "2013,2014",
+         "title": "Webmaster at Les Publications du Quartier Libre",
+         "description": "Web Administration of the Student newspaper of the University of Montreal",
+         "city": "Montreal, Qc, Canada",
+         "cardType": "Experience"
+       },
+       {
+         "date": "2011 (6 months)",
+         "title": "Technician at Canal+",
+         "description": "Technician for the Canal+ French TV station\nCabling, Guest preparation",
+         "city": "Paris, France",
+         "cardType": "Experience"
+       },
+       {
+         "date": "2010, 2011",
+         "title": "GameShow demonstrator, Sony Computer Entertainment Europe",
+         "description": "Setup and logistic of Playstation European gameshow booths.\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
+         "city": "Paris, France",
+         "cardType": "Experience"
+       }
+     ],
+     "Education": [
+      {
+       "date": "2013, 2014",
+       "title": "Art, Creation and Technologies",
+       "institution": "University of Montreal",
+       "city": "Montreal, Qc, Canada",
+       "level": "Post-Graduate Diploma",
+       "cardType": "Education"
+      },
+      {
+       "date": "2010, 2013",
+       "title": "Network Architecture and Web development",
+       "institution": "Université Pierre et Marie Curie (Paris VI)",
+       "city": "Paris, France",
+       "level": "Master",
+       "cardType": "Education"
+      },
+      {
+       "date": "2008, 2010",
+       "title": "Web Development",
+       "institution": "SUPINFO,  The International Institute of Information Technology",
+       "city": "Paris, France",
+       "level": "Bachelor",
+       "cardType": "Education"
+      }
+     ],
+   },
    "hobbies": [
     {
      "title": "Sports & Outdoors",
@@ -121,59 +175,6 @@ const init = [
      "description": "User of the Interrail unlimited train ticket.",
      "required": "Visit more than 30 european capitals",
      "cardType": "Achievements"
-    }
-   ],
-   "skills": [
-    {
-     "title": "Backend",
-     "subskills": [
-      "Dedicated/Virtual private server administration",
-      "Linux/Apache/MYSQL/PHP stack",
-      "Mongo/Express/Node stack",
-      "SQL and NoSQL databases",
-      "Erlang/Elixir/Phoenix",
-      "deployment (Git, Docker)",
-      "SSL certification"
-     ],
-     "cardType": "Skillset"
-    },
-    {
-      "title":"Data science",
-      "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"],
-      "cardType": "Skillset"
-    },
-    {
-     "title": "Frontend",
-     "subskills": [
-      "HTML5",
-      "CSS2/3/4",
-      "Javascript(ES5,ES6,ES7)",
-      "React/Redux/Router"
-     ],
-     "cardType": "Skillset"
-    },
-    {
-     "title": "Computer Hardware",
-     "subskills": [
-      "Network Architecture",
-      "router/switch administration",
-      "computer part selection",
-      "assembly and maintenance",
-      "electronic repair"
-     ],
-     "cardType": "Skillset"
-    },
-    {
-     "title": "Audio/Video/Photo",
-     "subskills": [
-      "video transcoding",
-      "DSLR operation",
-      "audio/video/photo captation",
-      "adobe suit (Lightroom, illustrator, photoshop)",
-      "Studio preparation",
-      "lighting configuration and shooting"
-     ],
-     "cardType": "Skillset"
     }
    ],
    "activeProject": [
@@ -250,5 +251,5 @@ const init = [
     }
    ]
   }
-];
+};
 export default init;

@@ -1,57 +1,63 @@
 import React, { Component } from 'react';
-import { store } from '../redux/store.js';
 
-export class Education extends React.Component {
-  constructor(props) {
-    super(props);
+
+export function Main(props){
+  if(props.object.cardType == "Skillset"){
+    return(<SkillSet object={props.object}/>);
   }
-
-  render() {
-    let infos = store.getState().infos[0];
-    return (
-      <article className="line">
-        <p>{this.props.object.date}</p>
-        <div>
-          <h3>{this.props.object.institution}</h3>
-          <p><strong>{this.props.object.level}</strong> {this.props.object.title}</p>
-        </div>
-        <p>{this.props.object.city}</p>
-      </article>
-    );
+  else if(props.object.cardType === "Experience"){
+    return(<Experience object={props.object}/>);
+  }
+  else if(props.object.cardType === "Education"){
+    return(<Education object={props.object}/>);
+  }
+  else{
+    return(<p>{JSON.stringify(props.object)}</p>)
   }
 }
-export class Experience extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
-  render() {
-    let infos = store.getState().infos[0];
+
+export function Education (props) {
     return (
       <article className="line">
-        <p>{this.props.object.date}</p>
+        <p>{props.object.date}</p>
         <div>
-          <h3>{this.props.object.title}</h3>
-          {this.props.object.description.split('\n').map((o,i)=>(<p key={"experience"+this.props.index+"-"+i}>{o}</p>))}
+          <h3>{props.object.institution}</h3>
+          <p><strong>{props.object.level}</strong> {props.object.title}</p>
         </div>
-        <p>{this.props.object.city}</p>
+        <p>{props.object.city}</p>
       </article>
     );
-  }
 }
-export class Achievement extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    let infos = store.getState().infos[0];
+export function Experience (props) {
+    return (
+      <article className="line">
+        <p>{props.object.date}</p>
+        <div>
+          <h3>{props.object.title}</h3>
+          {props.object.description.split('\n').map((o,i)=>(<p key={"experience"+props.index+"-"+i}>{o}</p>))}
+        </div>
+        <p>{props.object.city}</p>
+      </article>
+    );
+}
+export function Achievement (props) {
     return (
       <article className="achivement">
-        <h3>{this.props.object.title}</h3>
-        <p>{this.props.object.description}</p>
-        <p>Required : <u>{this.props.object.required}</u></p>
+        <h3>{props.object.title}</h3>
+        <p>{props.object.description}</p>
+        <p>Required : <u>{props.object.required}</u></p>
       </article>
     );
-  }
+}
+
+export function SkillSet (props) {
+    return (
+      <article>
+        <p>
+          <strong>{props.object.title}</strong> :
+          {props.object.subskills.join(', ')}
+        </p>
+      </article>
+    );
 }
