@@ -7,10 +7,6 @@ export function reducers(state = initialState, action) {
     case 'LOADJSON':
       return Object.assign({}, state, {infos:action.payload})
       break;
-    case 'LOADINFO':
-      console.log(action.payload);
-      return Object.assign({}, state, {contact:decodeURIComponent(action.payload).substr(1)})
-      break;
     default:
       return state
   }

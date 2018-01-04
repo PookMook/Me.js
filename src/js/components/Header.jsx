@@ -2,19 +2,15 @@ import React, { Component } from 'react';
 import { store } from '../redux/store.js';
 import { Link } from 'react-router';
 
-export default class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    let infos = store.getState().infos['en'].meta;
-    let data = store.getState().infos['en'].data;
+export function Header (props) {
+    const lang = props.params.lang || "en";
+    let infos = store.getState().infos[lang].meta;
+    let data = store.getState().infos[lang].data;
     return (
       <header>
         <nav>
           {Object.keys(data).map((cat)=>
-            (<Link to={"/"+cat} key={"category"+cat} activeStyle={{ 'fontWeight': 'bold' }}>{cat}</Link>)
+            (<Link to={"/"+lang+"/"+cat} key={"category"+cat} activeStyle={{ 'fontWeight': 'bold' }}>{cat}</Link>)
           )}
         </nav>
         <h1>{infos.name}</h1>
@@ -24,5 +20,4 @@ export default class Header extends React.Component {
         <p>{infos.languages}</p>
       </header>
     );
-  }
 }

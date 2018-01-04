@@ -18,7 +18,8 @@ function renderApp(){
       <Router history={browserHistory}>
         <Route path="/" component={MainDiv}>
           <Route path="/:category" component={Category} />
-          <IndexRedirect to="/CV"/>
+          <Route path="/:lang/:category" component={Category} />
+          <IndexRedirect to="/en/CV"/>
         </Route>
       </Router>
     </Provider>,

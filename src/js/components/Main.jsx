@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
 // components
-import Header from './Header.jsx';
+import {Header} from './Header.jsx';
 
 
 
-export class MainDiv extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
+export function MainDiv (props) {
     return (
       <div id="page">
-        <Header/>
-        {this.props.children}
+        <Header {...props}/>
+        {props.children}
       </div>
     );
-  }
 }

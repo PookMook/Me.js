@@ -21,9 +21,9 @@ if(isProd){
 module.exports = {
     entry: './src/js/app.jsx',
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'js/bundle.js',
-        // publicPath: '/dist'
+        path: path.resolve(__dirname, 'dist/js'),
+        filename: 'bundle.js',
+        publicPath: '/'
     },
     module: {
         rules: [
