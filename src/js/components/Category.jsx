@@ -3,8 +3,9 @@ import { store } from '../redux/store.js';
 import {Main} from './CVline.jsx';
 
 export function Category (props) {
-    const infos = store.getState().infos['en'].data;
-    document.title = props.params.category + " | "+store.getState().infos['en'].meta.name;
+    const lang = props.params.lang || store.getState().infos.default.lang;
+    const infos = store.getState().infos[lang].data;
+    document.title = props.params.category + " | "+store.getState().infos[lang].meta.name;
     return (
       <div>
         {!infos || !infos[props.params.category] && <p>404, category not found</p>}
