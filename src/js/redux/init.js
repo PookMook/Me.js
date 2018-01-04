@@ -8,6 +8,16 @@ const init = {
    "Resume":{
      "Skillsets": [
        {
+         "title": "Frontend",
+         "subskills": [
+           "HTML5",
+           "CSS2/3/4",
+           "Javascript(ES5,ES6,ES7)",
+           "React/Redux/Router"
+         ],
+         "cardType": "Skillset"
+       },
+       {
          "title": "Backend",
          "subskills": [
            "Dedicated/Virtual private server administration",
@@ -21,21 +31,6 @@ const init = {
          "cardType": "Skillset"
        },
        {
-         "title":"Data science",
-         "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"],
-         "cardType": "Skillset"
-       },
-       {
-         "title": "Frontend",
-         "subskills": [
-           "HTML5",
-           "CSS2/3/4",
-           "Javascript(ES5,ES6,ES7)",
-           "React/Redux/Router"
-         ],
-         "cardType": "Skillset"
-       },
-       {
          "title": "Computer Hardware",
          "subskills": [
            "Network Architecture",
@@ -44,6 +39,11 @@ const init = {
            "assembly and maintenance",
            "electronic repair"
          ],
+         "cardType": "Skillset"
+       },
+       {
+         "title":"Data science",
+         "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"],
          "cardType": "Skillset"
        },
        {

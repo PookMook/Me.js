@@ -55,8 +55,7 @@ export function SkillSet (props) {
     return (
       <article>
         <p>
-          <strong>{props.object.title}</strong> :
-          {props.object.subskills.join(', ')}
+          <strong>{props.object.title}</strong> : {props.object.subskills.join(', ')}
         </p>
       </article>
     );
