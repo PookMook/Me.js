@@ -2,17 +2,22 @@ import React, { Component } from 'react';
 
 
 export function Main(props){
-  if(props.object.cardType == "Skillset"){
-    return(<SkillSet object={props.object}/>);
-  }
-  else if(props.object.cardType === "Experience"){
-    return(<Experience object={props.object}/>);
-  }
-  else if(props.object.cardType === "Education"){
-    return(<Education object={props.object}/>);
-  }
-  else{
-    return(<p>{JSON.stringify(props.object)}</p>)
+  switch(props.object.cardType){
+    case "Skillset":
+      return(<SkillSet {...props}/>);
+    break;
+
+    case "Experience":
+      return(<Experience {...props}/>);
+    break;
+
+    case "Education":
+      return(<Education {...props}/>);
+    break;
+
+    default:
+      return(<p>{JSON.stringify(props.object)}</p>);
+    break;
   }
 }
 
