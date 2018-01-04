@@ -8,7 +8,7 @@ export default class Resume extends React.Component {
   }
 
   componentWillMount(){
-    document.title = "Resume | "+store.getState().infos['en'].name;
+    document.title = "Resume | "+store.getState().infos['en'].meta.name;
   }
 
   render() {

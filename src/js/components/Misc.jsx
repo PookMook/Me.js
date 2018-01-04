@@ -8,7 +8,7 @@ export default class Misc extends React.Component {
   }
 
   componentWillMount(){
-    document.title = "Misc | "+store.getState().infos['en'].name;
+    document.title = "Misc | "+store.getState().infos['en'].meta.name;
   }
 
   render() {

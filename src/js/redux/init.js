@@ -1,10 +1,12 @@
 const init = {
   en :{
-   "name": "Arthur Juchereau",
-   "contact": "arthur.juchereau@gmail.com",
-   "location": "Gatineau, Qc, Canada",
-   "summary": "LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities",
-   "languages": "Fluent in English and French, German functional",
+    meta:{
+      "name": "Arthur Juchereau",
+      "contact": "arthur.juchereau@gmail.com",
+      "location": "Gatineau, Qc, Canada",
+      "summary": "LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities",
+      "languages": "Fluent in English and French, German functional",
+    },
    "Resume":{
      "Skillsets": [
        {

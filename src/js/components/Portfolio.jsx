@@ -8,7 +8,7 @@ export default class Portfolio extends React.Component {
   }
 
   componentWillMount(){
-    document.title = "Portfolio | "+store.getState().infos['en'].name;
+    document.title = "Portfolio | "+store.getState().infos['en'].meta.name;
   }
 
   render() {
