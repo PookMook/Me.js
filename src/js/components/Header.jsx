@@ -11,10 +11,11 @@ export function Header (props) {
       <header>
         <nav>
           {Object.keys(data).map((cat)=>
-            (<Link to={"/"+lang+"/"+cat} key={"category"+cat} activeStyle={{ 'fontWeight': 'bold' }}>{cat}</Link>)
+            (<Link to={"/"+lang+"/"+cat} key={"category"+cat} title={cat} activeClassName="selected">{cat}</Link>)
           )}
+          <div className="spacer"></div>
           {Object.keys(languages).length > 1 && Object.keys(languages).map((language)=>(
-            <Link to={"/"+language+"/"+Object.keys(languages[language].data)[0]} key={language+"category"} activeStyle={{ 'fontWeight': 'bold' }}>{language}</Link>
+            <Link to={"/"+language+"/"+Object.keys(languages[language].data)[0]} key={language+"category"} title={language} className={lang===language?"selected":''}>{language}</Link>
           ))}
         </nav>
         <h1>{infos.name}</h1>

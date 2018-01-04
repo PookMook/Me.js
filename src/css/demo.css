@@ -11,7 +11,8 @@
    # ================================================================= */
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow-y: scroll; /* All browsers without overlaying scrollbars */
   -webkit-text-size-adjust: 100%; /* iOS 8+ */
 }
@@ -20,7 +21,8 @@ html {
 ::before,
 ::after {
   background-repeat: no-repeat; /* Set `background-repeat: no-repeat` to all elements and pseudo elements */
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 ::before,
@@ -32,7 +34,8 @@ html {
 * {
   padding: 0; /* Reset `padding` and `margin` of all elements */
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* # =================================================================
@@ -351,7 +354,8 @@ html{
   width:100%;
   max-width:960px;
   margin:0 auto;
-  box-shadow: 0 0 5px #c0c0c0;
+  -webkit-box-shadow: 0 0 5px #c0c0c0;
+          box-shadow: 0 0 5px #c0c0c0;
   padding:2em;
   color:#303030;
   background-color: white;
@@ -370,49 +374,84 @@ section {
   text-align: center;
 }
 #page > header > nav {
-  text-align:right;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  user-select:none;
+}
+#page > header > nav > div.spacer {
+  flex:1 1 auto;
 }
 #page > header > nav > a {
   margin-right:1em;
   display:inline-block;
+  flex:0 0 auto;
+}
+#page > header > nav > a::after {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 #page > header > nav > a:last-child {
   margin-right:0;
+}
+#page > header > nav > a.selected{
+  font-weight: bold;
 }
 article{
   border-bottom:1px solid #f0f0f0;
   padding:1em 0;
 }
 article.line {
-  display:-webkit-flex;
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
 }
 article.line > div{
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 article.line > p:first-child{
-  flex:0 0 110px;
+  -webkit-box-flex:0;
+      -ms-flex:0 0 110px;
+          flex:0 0 110px;
   margin-right: 1em;
 }
 article.line > p:last-child{
-  flex:0 0 150px;
+  -webkit-box-flex:0;
+      -ms-flex:0 0 150px;
+          flex:0 0 150px;
   margin-left:1em;
 }
 @media only screen AND (max-width:660px){
   article.line {
-    -webkit-flex-direction:column;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   article.line > div{
-    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
   }
   article.line > p:first-child{
-    flex:0 0 auto;
+    -webkit-box-flex:0;
+        -ms-flex:0 0 auto;
+            flex:0 0 auto;
     margin-right: 0em;
-    order:3;
+    -webkit-box-ordinal-group:4;
+        -ms-flex-order:3;
+            order:3;
   }
   article.line > p:last-child{
-    flex:0 0 auto;
+    -webkit-box-flex:0;
+        -ms-flex:0 0 auto;
+            flex:0 0 auto;
     margin-left:0em;
   }
   #page > header > nav {

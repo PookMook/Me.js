@@ -264,12 +264,12 @@ const init = {
       "name": "Arthur Juchereau",
       "contact": "arthur.juchereau@gmail.com",
       "location": "Gatineau, Qc, Canada",
-      "summary": "LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities",
+      "summary": "Dévoloppeur full-stack LAMP et MERN (express/react/nodejs).\n Intéressé par les plateformes web personnalisées.\n Ancien CTO de Launchleap, développeur principal de la Chaire de Recherche du Canada sur les Écritures Numériques",
       "languages": "Bilingue Français/Anglais, Allemand fonctionnel",
     },
     "data":{
       "CV":{
-        "Skillsets": [
+        "Compétences": [
           {
             "title": "Frontend",
             "subskills": [
@@ -285,46 +285,46 @@ const init = {
           {
             "title": "Backend",
             "subskills": [
-              "Dedicated/Virtual private server administration",
+              "Administration de serveur Dédié/virtuel",
               "Linux/Apache/MYSQL/PHP stack",
               "Mongo/Express/Node stack",
-              "SQL and NoSQL databases",
+              "Bases de données SQL et NoSQL",
               "Erlang/Elixir/Phoenix",
-              "deployment (Git, Docker)",
-              "SSL certification"
+              "Déploiement continue (Git, Docker)",
+              "certificationSSL"
             ],
             "cardType": "Skillset"
           },
           {
-            "title": "Computer Hardware",
+            "title": "Matériel informatique",
             "subskills": [
-              "Network Architecture",
-              "router/switch administration",
-              "computer part selection",
-              "assembly and maintenance",
-              "electronic repair"
+              "Architecture réseau",
+              "Administration de routeurs/switchs",
+              "Selection de pièces informatiques",
+              "Assemblage et maintenance",
+              "Réparation"
             ],
             "cardType": "Skillset"
           },
           {
-            "title":"Data science",
-            "subskills":["R","SAS","Python","Hadoop","SQL/NoSQL databases"],
+            "title":"Traitement des données",
+            "subskills":["R","SAS","Python","Hadoop","bases de données SQL/NoSQL"],
             "cardType": "Skillset"
           },
           {
             "title": "Audio/Video/Photo",
             "subskills": [
-              "video transcoding",
-              "DSLR operation",
-              "audio/video/photo captation",
-              "adobe suit (Lightroom, illustrator, photoshop)",
+              "transcodage video",
+              "camera reflex et sans-mirroir",
+              "captation audio/video/photo",
+              "suite adobe (Lightroom, illustrator, photoshop)",
               "Studio preparation",
               "lighting configuration and shooting"
             ],
             "cardType": "Skillset"
           }
         ],
-        "Experiences": [
+        "Expériences": [
           {
             "date": "2014, Present",
             "title": "Tech Ninja, head Developer at Canadian Research Chair of Digital Textualities",
