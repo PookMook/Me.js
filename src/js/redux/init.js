@@ -7,7 +7,7 @@ const init = {
       "summary": "LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities",
       "languages": "Fluent in English and French, German functional",
     },
-   "data":{     
+   "data":{
      "Resume":{
        "Skillsets": [
          {

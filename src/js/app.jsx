@@ -7,9 +7,7 @@ import { Provider } from 'react-redux';
 import { Router, Route, Link, browserHistory, IndexRoute, IndexRedirect } from 'react-router';
 import { store } from './redux/store.js';
 import { MainDiv } from './components/Main.jsx';
-import Resume from './components/Resume.jsx';
-import Portfolio from './components/Portfolio.jsx';
-import Misc from './components/Misc.jsx';
+import {Category} from './components/Category.jsx';
 require('./../logo.png');
 
 import _ from 'lodash';
@@ -19,10 +17,8 @@ function renderApp(){
     <Provider store={store}>
       <Router history={browserHistory}>
         <Route path="/" component={MainDiv}>
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/misc" component={Misc} />
-          <IndexRedirect to="/resume"/>
+          <Route path="/:category" component={Category} />
+          <IndexRedirect to="/Resume"/>
         </Route>
       </Router>
     </Provider>,
