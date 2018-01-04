@@ -3,8 +3,8 @@ const init = {
     "lang":"en",
     "path":"Resume"
   },
-  en :{
-    meta:{
+  "en" :{
+    "meta":{
       "name": "Arthur Juchereau",
       "contact": "arthur.juchereau@gmail.com",
       "location": "Gatineau, Qc, Canada",
@@ -262,9 +262,9 @@ const init = {
        ],
      }
    }
- },
-  fr :{
-    meta:{
+  },
+  "fr" :{
+    "meta":{
       "name": "Arthur Juchereau",
       "contact": "arthur.juchereau@gmail.com",
       "location": "Gatineau, Qc, Canada",
@@ -278,9 +278,11 @@ const init = {
            "title": "Frontend",
            "subskills": [
              "HTML5",
-             "CSS2/3/4",
+             "React/Redux/Router",
              "Javascript(ES5,ES6,ES7)",
-             "React/Redux/Router"
+             "Svelte/sapper",
+             "CSS2/3/4",
+             "JQuery",
            ],
            "cardType": "Skillset"
          },
