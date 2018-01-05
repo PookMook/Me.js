@@ -326,16 +326,16 @@ const init = {
         ],
         "Expériences": [
           {
-            "date": "2014, Present",
-            "title": "Tech Ninja, head Developer at Canadian Research Chair of Digital Textualities",
-            "description": "Development of custom platform, specifically for academics.\nThis include development in PHP/SQL/HTML5 and Node.js/Sails.js/React/Redux and Datafiles like XML/JSON/YaML",
-            "city": "Montreal, Qc, Canada",
+            "date": "2014, actuel",
+            "title": "Tech Ninja, Développeur principal pour la chaire de recherche du Canada sur les Écritures Numériques",
+            "description": "Développement de plateformes web spécialisées pour les chercheurs de la chaire.\nInclus des développement en PHP/MySQL/HTML5 ainsi que Node.js/Sails.js/React/Redux et gestion de données formattées en XML/JSON/YaML",
+            "city": "Montréal, Qc, Canada",
             "cardType": "Experience"
           },
           {
             "date": "2014, 2017",
-            "title": "CTO at Launchleap",
-            "description": "Development from the initial proof of concept of an interactive survey/crowdsourcing app to a fully fledged platform usable by our clients on their own.\nAgile project management, Training of staff\nFull stack development in PHP/MySQL/HTML5\nSysAdmin LAMP + security hardening",
+            "title": "Directeur de la technologie chez Launchleap",
+            "description": "Développement de la preuve de concept initiale d'une application de sondage/socio-innovation jusqu'à une plateforme SaaS utilisable par nos clients.\nAgile project management, Training of staff\nFull stack development in PHP/MySQL/HTML5\nSysAdmin LAMP + security hardening",
             "city": "Montreal, Qc, Canada",
             "cardType": "Experience"
           },
