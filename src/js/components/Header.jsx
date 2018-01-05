@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { store } from '../redux/store.js';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 
 export function Header (props) {
     const lang = props.params.lang || Object.keys(store.getState().infos)[0];

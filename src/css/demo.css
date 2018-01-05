@@ -386,6 +386,7 @@ section {
   margin-right:1em;
   display:inline-block;
   flex:0 0 auto;
+  text-transform: uppercase;
 }
 #page > header > nav > a::after {
   display: block;
@@ -400,6 +401,11 @@ section {
 }
 #page > header > nav > a.selected{
   font-weight: bold;
+}
+#page > header > ul.failed {
+  padding:0;
+  margin:1em 0;
+  text-align: left;
 }
 article{
   border-bottom:1px solid #f0f0f0;
