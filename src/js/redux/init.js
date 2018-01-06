@@ -335,28 +335,28 @@ const init = {
           {
             "date": "2014, 2017",
             "title": "Directeur de la technologie chez Launchleap",
-            "description": "Développement de la preuve de concept initiale d'une application de sondage/socio-innovation jusqu'à une plateforme SaaS utilisable par nos clients.\nAgile project management, Training of staff\nFull stack development in PHP/MySQL/HTML5\nSysAdmin LAMP + security hardening",
-            "city": "Montreal, Qc, Canada",
+            "description": "Développement de la preuve de concept initiale d'une application de sondage/socio-innovation jusqu'à une plateforme SaaS utilisable par nos clients.\nGestion de projet Agile et formation de l'équipe de développeurs\nDeveloppement full-stack en PHP/MySQL/HTML5\nSysAdmin LAMP + sécurisation du serveur",
+            "city": "Montréal, Qc, Canada",
             "cardType": "Experience"
           },
           {
             "date": "2013,2014",
-            "title": "Webmaster at Les Publications du Quartier Libre",
-            "description": "Web Administration of the Student newspaper of the University of Montreal",
-            "city": "Montreal, Qc, Canada",
+            "title": "Webmestre des Publications du Quartier Libre",
+            "description": "Administration de la plateforme de publication du journal étudiant de l'université de Montréal",
+            "city": "Montréal, Qc, Canada",
             "cardType": "Experience"
           },
           {
-            "date": "2011 (6 months)",
-            "title": "Technician at Canal+",
-            "description": "Technician for the Canal+ French TV station\nCabling, Guest preparation",
+            "date": "2011 (6 mois)",
+            "title": "Technicien chez Canal+",
+            "description": "Technicien pour la chaine de télévision française Canal+\nCablage et preparation des invités",
             "city": "Paris, France",
             "cardType": "Experience"
           },
           {
             "date": "2010, 2011",
-            "title": "GameShow demonstrator, Sony Computer Entertainment Europe",
-            "description": "Setup and logistic of Playstation European gameshow booths.\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
+            "title": "Démonstrateur de jeux, Sony Computer Entertainment Europe",
+            "description": "logistique e installation des stands Playstation dans les salons de jeux-vidéo\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
             "city": "Paris, France",
             "cardType": "Experience"
           }
