@@ -6,6 +6,11 @@ const init = {
       "location": "Gatineau, Qc, Canada",
       "summary": "LAMP and MERN (express/react/nodejs) full stack developer.\n Interested in custom web software.\n Ex-CTO of Launchleap, Head Programmer at the Canadian Research Chair on Digital Textualities",
       "languages": "Fluent in English and French, German functional",
+      "links":[
+        {"title":"@ArthurBienSur","url":"https://twitter.com/ArthurBienSur"},
+        {"title":"Linkedin","url":"https://ca.linkedin.com/in/arthurjuchereau"},
+        {"title":"Github","url":"https://github.com/PookMook"}
+      ]
     },
     "data":{
       "Resume":{
@@ -266,6 +271,11 @@ const init = {
       "location": "Gatineau, Qc, Canada",
       "summary": "Dévoloppeur full-stack LAMP et MERN (express/react/nodejs).\n Intéressé par les plateformes web personnalisées.\n Ancien CTO de Launchleap, développeur principal de la Chaire de Recherche du Canada sur les Écritures Numériques",
       "languages": "Bilingue Français/Anglais, Allemand fonctionnel",
+      "links":[
+        {"title":"@ArthurBienSur","url":"https://twitter.com/ArthurBienSur"},
+        {"title":"Linkedin","url":"https://ca.linkedin.com/in/arthurjuchereau"},
+        {"title":"Github","url":"https://github.com/PookMook"}
+      ]
     },
     "data":{
       "CV":{
