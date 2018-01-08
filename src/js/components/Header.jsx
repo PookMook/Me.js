@@ -23,6 +23,13 @@ export function Header (props) {
         {infos.contact? <p>{infos.contact}</p>:''}
         {infos.summary.split('\n').map((o,i)=>(<p key={"summary"+i}>{o}</p>))}
         <p>{infos.languages}</p>
+        <ul>
+          {infos.links.map((link,i)=>(
+            <li key={lang+"link"+i}>
+              <a href={link.url} target="_blank">{link.title}</a>
+            </li>
+          ))}
+        </ul>
       </header>
     );
 }
