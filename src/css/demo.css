@@ -361,6 +361,9 @@ html{
   background-color: white;
 }
 a{
+  color:black;
+}
+a:hover{
   text-decoration: underline;
 }
 h1{
@@ -389,7 +392,6 @@ section {
   margin-right:1em;
   display:inline-block;
   flex:0 0 auto;
-  text-transform: uppercase;
 }
 #page > header > nav > a::after {
   display: block;

@@ -345,7 +345,7 @@ const init = {
           {
             "date": "2014, 2017",
             "title": "Directeur de la technologie chez Launchleap",
-            "description": "Développement de la preuve de concept initiale d'une application de sondage/socio-innovation jusqu'à une plateforme SaaS utilisable par nos clients.\nGestion de projet Agile et formation de l'équipe de développeurs\nDeveloppement full-stack en PHP/MySQL/HTML5\nSysAdmin LAMP + sécurisation du serveur",
+            "description": "Développement de la preuve de concept initiale d'une application de sondage/socio-innovation jusqu'à une plateforme SaaS utilisable par nos clients.\nGestion de projet Agile et formation de l'équipe de développeurs\nDeveloppement full-stack en PHP/MySQL/HTML5\nSysAdmin LAMP + sécurisation serveur",
             "city": "Montréal, Qc, Canada",
             "cardType": "Experience"
           },
@@ -366,7 +366,7 @@ const init = {
           {
             "date": "2010, 2011",
             "title": "Démonstrateur de jeux, Sony Computer Entertainment Europe",
-            "description": "logistique e installation des stands Playstation dans les salons de jeux-vidéo\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
+            "description": "logistique et installation des stands Playstation dans les salons de jeux-vidéo\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
             "city": "Paris, France",
             "cardType": "Experience"
           }
@@ -374,26 +374,26 @@ const init = {
         "Education": [
           {
             "date": "2013, 2014",
-            "title": "Art, Creation and Technologies",
-            "institution": "University of Montreal",
-            "city": "Montreal, Qc, Canada",
-            "level": "Post-Graduate Diploma",
+            "title": "Art, création et technologies",
+            "institution": "Université de Montréal",
+            "city": "Montréal, Qc, Canada",
+            "level": "D.E.S.S. (second cycle)",
             "cardType": "Education"
           },
           {
             "date": "2010, 2013",
-            "title": "Network Architecture and Web development",
+            "title": "Architecture réseau et développement web",
             "institution": "Université Pierre et Marie Curie (Paris VI)",
             "city": "Paris, France",
-            "level": "Master",
+            "level": "Maîtrise",
             "cardType": "Education"
           },
           {
             "date": "2008, 2010",
-            "title": "Web Development",
+            "title": "Développement web",
             "institution": "SUPINFO,  The International Institute of Information Technology",
             "city": "Paris, France",
-            "level": "Bachelor",
+            "level": "Licence",
             "cardType": "Education"
           }
         ],
