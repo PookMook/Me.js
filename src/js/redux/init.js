@@ -402,8 +402,8 @@ const init = {
         "Active projects": [
           {
             "title": "Stylo.js",
-            "description": "Edition platform for scholars. Provide an editor to help academics write in WYSIWYM (What you see is what you mean) loaded with metadata and bibliography inlined within the text. Then deal with the multiple output needed for academic papers, memoir or thesis",
-            "scope": "Canadian Research Chair on Digital Textualities",
+            "description": "Plateforme d'édition pour les universitaires. Éditeur WYSIWYM (What you see is what you mean) avec intégration des meta-données et des références bibliographiques directement dans le texte. Support de multiple format de fichier en sortie afin de satisfaire les besoins des maîtrises, thèses et articles scientifiques",
+            "scope": "Chaire de Recherche du Canada sur les Écritures Numériques",
             "version": "v.0.3.0",
             "link": "https://github.com/EcrituresNumeriques/stylo",
             "cardType": "Project"
