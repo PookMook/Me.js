@@ -402,7 +402,7 @@ const init = {
         "Active projects": [
           {
             "title": "Stylo.js",
-            "description": "Plateforme d'édition pour les universitaires. Éditeur WYSIWYM (What you see is what you mean) avec intégration des meta-données et des références bibliographiques directement dans le texte. Support de multiple format de fichier en sortie afin de satisfaire les besoins des maîtrises, thèses et articles scientifiques",
+            "description": "Plateforme d'édition pour les universitaires. Éditeur WYSIWYM (What you see is what you mean) avec intégration des meta-données et des références bibliographiques directement dans le texte. Support de multiple format de fichier en sortie afin de satisfaire les besoins des maîtrises, thèses et articles scientifiques.",
             "scope": "Chaire de Recherche du Canada sur les Écritures Numériques",
             "version": "v.0.3.0",
             "link": "https://github.com/EcrituresNumeriques/stylo",
@@ -410,25 +410,17 @@ const init = {
           },
           {
             "title": "Anthologia Palatina",
-            "description": "Platform to enable scholars to translate greek manuscripts and then align translations. Made using Sails.js, react, Docker",
-            "scope": "Canadian Research Chair on Digital Textualities",
+            "description": "Plateforme de traduction de manuscripts grecs, avec alignement et méta-données. Utilise Sails.js, react, Docker.",
+            "scope": "Chaire de Recherche du Canada sur les Écritures Numériques",
             "version": "v0.9.0",
             "link": "http://anthologia.ecrituresnumeriques.ca/",
             "cardType": "Project"
           },
           {
-            "title": "openRaid",
-            "description": "Online Raid/party management for World of Warcraft",
-            "scope": "Personal",
-            "version": "v.0.6.0",
-            "link": "https://github.com/PookMook/openRaid",
-            "cardType": "Project"
-          },
-          {
             "title": "Me.js",
-            "description": "Didn't had a Resume up to date, didn't found a simple generator online, made one. Made using react, react-router, Redux, github-pages",
-            "scope": "Personal project",
-            "version": "v.0.1.0",
+            "description": "Aprés avoir cherché un générateur de CV en ligne, j'ai décidé d'en faire un moi-même en utilisant React/Redux.",
+            "scope": "Projet personnel",
+            "version": "v.0.3.0",
             "link": "https://github.com/PookMook/Me.js",
             "cardType": "Project"
           },
@@ -439,7 +431,15 @@ const init = {
             "version": "Exploration of technology",
             "link": "https://github.com/PookMook/Genkidama",
             "cardType": "Project"
-          }
+          },
+          {
+              "title": "openRaid",
+              "description": "Online Raid/party management for World of Warcraft",
+              "scope": "Personal",
+              "version": "v.0.6.0",
+              "link": "https://github.com/PookMook/openRaid",
+              "cardType": "Project"
+          },
         ],
         "Past Projects": [
           {
