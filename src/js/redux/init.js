@@ -132,6 +132,37 @@ const init = {
         ],
       },
       "Portfolio":{
+          "Past Projects": [
+              {
+                  "title": "LaunchLeap",
+                  "description": "Crowdsourcing platform. Basically Kickstarter but replacing money by feedback. Coded this from scratch. Made using PHP, HTML5/JQuery",
+                  "scope": "CTO of Launchleap",
+                  "version": "production",
+                  "link": "https://launchleap.com",
+                  "cardType": "Project"
+              },
+              {
+                  "title": "YamlEditor",
+                  "description": "Quick YAML editor for the publication Sens-Public, enable non-tech to enrich article using YAML. Made using react, JS-Yaml",
+                  "scope": "Canadian Research Chair on Digital Textualities",
+                  "version": "production",
+                  "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases",
+                  "cardType": "Project"
+              },
+              {
+                  "title": "lightium",
+                  "description": "Lightweight CMS for scholars to easily publish to the web, fetch information from their zotero repository and build their corpus automatically.  Made using PHP, HTML5, SQLite, Docker",
+                  "scope": "Canadian Research Chair on Digital Textualities",
+                  "version": "production",
+                  "examples": [
+                      "http://ecrituresnumeriques.ca/fr/",
+                      "http://technes.org/fr/",
+                      "http://biocultura.ca/fr/"
+                  ],
+                  "link": "https://github.com/EcrituresNumeriques/Lightium",
+                  "cardType": "Project"
+              }
+          ],
         "Active projects": [
           {
             "title": "Stylo.js",
@@ -174,37 +205,6 @@ const init = {
             "cardType": "Project"
           }
         ],
-        "Past Projects": [
-          {
-            "title": "LaunchLeap",
-            "description": "Crowdsourcing platform. Basically Kickstarter but replacing money by feedback. Coded this from scratch. Made using PHP, HTML5/JQuery",
-            "scope": "CTO of Launchleap",
-            "version": "production",
-            "link": "https://launchleap.com",
-            "cardType": "Project"
-          },
-          {
-            "title": "YamlEditor",
-            "description": "Quick YAML editor for the publication Sens-Public, enable non-tech to enrich article using YAML. Made using react, JS-Yaml",
-            "scope": "Canadian Research Chair on Digital Textualities",
-            "version": "production",
-            "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases",
-            "cardType": "Project"
-          },
-          {
-            "title": "lightium",
-            "description": "Lightweight CMS for scholars to easily publish to the web, fetch information from their zotero repository and build their corpus automatically.  Made using PHP, HTML5, SQLite, Docker",
-            "scope": "Canadian Research Chair on Digital Textualities",
-            "version": "production",
-            "exemples": [
-              "http://ecrituresnumeriques.ca/fr/",
-              "http://technes.org/fr/",
-              "http://biocultura.ca/fr/"
-            ],
-            "link": "https://github.com/EcrituresNumeriques/Lightium",
-            "cardType": "Project"
-          }
-        ]
       },
       "Misc":{
         "Achievements": [
@@ -399,11 +399,42 @@ const init = {
         ],
       },
       "Portfolio":{
-        "Active projects": [
+        "Projets": [
+          {
+              "title": "LaunchLeap",
+              "description": "Plateforme de Crowdsourcing. Sorte de Kickstarter mais pour le feedback plutôt que le financement. Mes responsabilités s'étalait sur l'ensemble du stack, de l'administration du serveur Linux, jusqu'au front end en HTML5/JQuery en passant par le backend en PHP/MySQL. Également responsable de la formation ",
+              "cadre": "CTO of Launchleap",
+              "version": "Production",
+              "link": "https://launchleap.com",
+              "cardType": "Project"
+          },
+          {
+              "title": "YamlEditor",
+              "description": "Editeur YAML pour le journal scientifique Sens-Public. Permet l'enrichissement des articles et s'assure que les fichiers YaML sont formatés correctement. Réalisé grâce à react/redux, JS-Yaml",
+              "cadre": "Chaire de recherche du Canada sur les Écritures Numériques",
+              "version": "Production",
+              "link": "https://yaml.14159.ninja",
+              "cardType": "Project"
+          },
+          {
+              "title": "lightium",
+              "description": "CMS destiné aux universitaires afin de les aider à publier pour le web. Moisonne depuis leurs repertoires Zotero et publie leur corpus automatically. Utilise PHP, HTML5, SQLite et Docker",
+              "cadre": "Chaire de recherche du Canada sur les Écritures Numériques",
+              "version": "Production",
+              "exemples": [
+                  "http://ecrituresnumeriques.ca/fr/",
+                  "http://technes.org/fr/",
+                  "http://biocultura.ca/fr/"
+              ],
+              "link": "https://github.com/EcrituresNumeriques/Lightium",
+              "cardType": "Project"
+          }
+        ],
+        "Projets en cours": [
           {
             "title": "Stylo.js",
             "description": "Plateforme d'édition pour les universitaires. Éditeur WYSIWYM (What you see is what you mean) avec intégration des meta-données et des références bibliographiques directement dans le texte. Support de multiple format de fichier en sortie afin de satisfaire les besoins des maîtrises, thèses et articles scientifiques.",
-            "scope": "Chaire de Recherche du Canada sur les Écritures Numériques",
+            "cadre": "Chaire de Recherche du Canada sur les Écritures Numériques",
             "version": "v.0.3.0",
             "link": "https://github.com/EcrituresNumeriques/stylo",
             "cardType": "Project"
@@ -411,7 +442,7 @@ const init = {
           {
             "title": "Anthologia Palatina",
             "description": "Plateforme de traduction de manuscripts grecs, avec alignement et méta-données. Utilise Sails.js, react, Docker.",
-            "scope": "Chaire de Recherche du Canada sur les Écritures Numériques",
+            "cadre": "Chaire de Recherche du Canada sur les Écritures Numériques",
             "version": "v0.9.0",
             "link": "http://anthologia.ecrituresnumeriques.ca/",
             "cardType": "Project"
@@ -419,59 +450,28 @@ const init = {
           {
             "title": "Me.js",
             "description": "Aprés avoir cherché un générateur de CV en ligne, j'ai décidé d'en faire un moi-même en utilisant React/Redux.",
-            "scope": "Projet personnel",
+            "cadre": "Projet personnel",
             "version": "v.0.3.0",
             "link": "https://github.com/PookMook/Me.js",
             "cardType": "Project"
           },
           {
             "title": "Genkidama Player",
-            "description": "Serverless video distribution platform using IPFS to serve files, VideoContext to enhance and make videos interactive. Made using IPFS, VideoContext, Electron",
-            "scope": "Personal project",
-            "version": "Exploration of technology",
+            "description": "Plateforme de distribution video basée sur IPFS, VideoContext et electron.",
+            "cadre": "Projet personnel",
+            "version": "Exploration",
             "link": "https://github.com/PookMook/Genkidama",
             "cardType": "Project"
           },
           {
-              "title": "openRaid",
-              "description": "Online Raid/party management for World of Warcraft",
-              "scope": "Personal",
-              "version": "v.0.6.0",
-              "link": "https://github.com/PookMook/openRaid",
-              "cardType": "Project"
+            "title": "openRaid",
+            "description": "Gestion de groupe/raid pour le jeu en ligne World of Warcraft",
+            "cadre": "Projet personnel",
+            "version": "v.0.6.0",
+            "link": "https://github.com/PookMook/openRaid",
+            "cardType": "Project"
           },
         ],
-        "Past Projects": [
-          {
-            "title": "LaunchLeap",
-            "description": "Crowdsourcing platform. Basically Kickstarter but replacing money by feedback. Coded this from scratch. Made using PHP, HTML5/JQuery",
-            "scope": "CTO of Launchleap",
-            "version": "production",
-            "link": "https://launchleap.com",
-            "cardType": "Project"
-          },
-          {
-            "title": "YamlEditor",
-            "description": "Quick YAML editor for the publication Sens-Public, enable non-tech to enrich article using YAML. Made using react, JS-Yaml",
-            "scope": "Canadian Research Chair on Digital Textualities",
-            "version": "production",
-            "link": "https://github.com/EcrituresNumeriques/chaineEditorialeSP/releases",
-            "cardType": "Project"
-          },
-          {
-            "title": "lightium",
-            "description": "Lightweight CMS for scholars to easily publish to the web, fetch information from their zotero repository and build their corpus automatically.  Made using PHP, HTML5, SQLite, Docker",
-            "scope": "Canadian Research Chair on Digital Textualities",
-            "version": "production",
-            "exemples": [
-              "http://ecrituresnumeriques.ca/fr/",
-              "http://technes.org/fr/",
-              "http://biocultura.ca/fr/"
-            ],
-            "link": "https://github.com/EcrituresNumeriques/Lightium",
-            "cardType": "Project"
-          }
-        ]
       },
       "Misc":{
         "Achievements": [
