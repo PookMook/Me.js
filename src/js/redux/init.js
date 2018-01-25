@@ -476,9 +476,9 @@ const init = {
       "Misc":{
         "Achievements": [
           {
-            "title": "You've Made it",
-            "description": "Successfully made it through the Canadian immigration system.",
-            "required": "Canadian permanent resident",
+            "title": "Tu y es arrivé!",
+            "description": "Réussir à passer au travers du système d'immigration Canadien avec succès",
+            "required": "Résident permanent Canadien",
             "cardType": "Achievement"
           },
           {
