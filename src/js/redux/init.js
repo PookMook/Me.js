@@ -473,12 +473,12 @@ const init = {
           },
         ],
       },
-      "Misc":{
-        "Achievements": [
+      "Divers":{
+        "Hauts faits": [
           {
             "title": "Tu y es arrivé!",
             "description": "Réussir à passer au travers du système d'immigration Canadien avec succès",
-            "required": "Résident permanent Canadien",
+            "requis": "Résident permanent Canadien",
             "cardType": "Achievement"
           },
           {
